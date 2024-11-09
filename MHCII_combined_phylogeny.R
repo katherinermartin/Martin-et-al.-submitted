@@ -91,7 +91,7 @@ ggsave("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII
 
 
 ## Maximum likelihood tree from CIPRES/IQTree
-ml_tree <- read.tree("/Volumes/DissertationData/MHC_evo/combined_9Sept24/IQTree/iqtree_MHCIIcombined_15Sept24.treefile")
+ml_tree <- read.tree("/Volumes/DissertationData/MHC_evo/combined_9Sept24/IQTree/iqtree mhcii 15 sept 24 trial 3/iqtree_MHCIIcombined_15Sept24.contree")
 
 # drop the outgroup tips:
 ml_tree <- treeio::drop.tip(ml_tree, c("KX020876.1", "HQ203710.1"))

@@ -1,0 +1,1328 @@
+sample_ID,species,allele_count,type
+MHC_Sample1_lk_MA,Lk,4,MHCI
+MHC_Sample2_lk_MA,Lk,7,MHCI
+MHC_Sample3_lk_MA,Lk,4,MHCI
+MHC_Sample4_lk_MA,Lk,7,MHCI
+MHC_Sample5_lk_MA,Lk,7,MHCI
+MHC_Sample6_lk_MA,Lk,4,MHCI
+MHC_Sample8_lk_MA,Lk,6,MHCI
+MHC_Sample9_lk_MA,Lk,6,MHCI
+MHC_Sample10_lk_MA,Lk,6,MHCI
+MHC_Sample12_lk_MA,Lk,3,MHCI
+MHC_Sample13_lk_MA,Lk,4,MHCI
+MHC_Sample15_lk_MA,Lk,5,MHCI
+MHC_Sample16_lk_MA,Lk,6,MHCI
+MHC_Sample17_lk_MA,Lk,6,MHCI
+MHC_Sample18_lk_MA,Lk,4,MHCI
+MHC_Sample19_lk_MA,Lk,7,MHCI
+MHC_Sample22_lk_MA,Lk,5,MHCI
+MHC_Sample23_lk_MA,Lk,5,MHCI
+MHC_Sample24_lk_MA,Lk,6,MHCI
+MHC_Sample25_lk_MA,Lk,5,MHCI
+MHC_Sample26_lk_MA,Lk,6,MHCI
+MHC_Sample29_lk_MA,Lk,4,MHCI
+MHC_Sample30_lk_MA,Lk,6,MHCI
+MHC_Sample31_lk_MA,Lk,5,MHCI
+MHC_Sample32_lk_MA,Lk,5,MHCI
+MHC_Sample33_lk_MA,Lk,5,MHCI
+MHC_Sample36_lk_MA,Lk,3,MHCI
+MHC_Sample37_lk_MA,Lk,4,MHCI
+MHC_Sample38_lk_MA,Lk,6,MHCI
+MHC_Sample39_lk_MA,Lk,6,MHCI
+MHC_Sample40_lk_MA,Lk,5,MHCI
+MHC_Sample42_lk_MA,Lk,5,MHCI
+MHC_Sample43_lk_MA,Lk,5,MHCI
+MHC_Sample44_lk_MA,Lk,5,MHCI
+MHC_Sample45_lk_MA,Lk,5,MHCI
+MHC_Sample46_lk_MA,Lk,6,MHCI
+MHC_Sample48_lk_MA,Lk,4,MHCI
+MHC_Sample49_lk_MA,Lk,5,MHCI
+MHC_Sample50_lk_MA,Lk,4,MHCI
+MHC_Sample51_lk_MA,Lk,6,MHCI
+MHC_Sample52_lk_MA,Lk,3,MHCI
+MHC_Sample55_lk_MA,Lk,5,MHCI
+MHC_Sample56_lk_MA,Lk,6,MHCI
+MHC_Sample57_lk_MA,Lk,6,MHCI
+MHC_Sample59_lk_MA,Lk,4,MHCI
+MHC_Sample62_lk_MA,Lk,4,MHCI
+MHC_Sample63_lk_MA,Lk,4,MHCI
+MHC_Sample64_lk_MA,Lk,4,MHCI
+MHC_Sample68_lk_MA,Lk,5,MHCI
+MHC_Sample69_lk_MA,Lk,5,MHCI
+MHC_Sample70_lk_MA,Lk,6,MHCI
+MHC_Sample71_lk_MA,Lk,6,MHCI
+MHC_Sample72_lk_MA,Lk,4,MHCI
+MHC_Sample75_lk_MA,Lk,6,MHCI
+MHC_Sample77_lk_MA,Lk,6,MHCI
+MHC_Sample78_lk_MA,Lk,5,MHCI
+MHC_Sample79_lk_MA,Lk,4,MHCI
+MHC_Sample81_lk_MA,Lk,6,MHCI
+MHC_Sample82_lk_MA,Lk,5,MHCI
+MHC_Sample83_lk_MA,Lk,3,MHCI
+MHC_Sample84_lk_MA,Lk,7,MHCI
+MHC_Sample85_lk_MA,Lk,5,MHCI
+MHC_Sample86_lk_MA,Lk,3,MHCI
+MHC_Sample88_lk_MA,Lk,6,MHCI
+MHC_Sample89_lk_MA,Lk,4,MHCI
+MHC_Sample90_lk_MA,Lk,7,MHCI
+MHC_Sample91_lk_MA,Lk,6,MHCI
+MHC_Sample92_lk_MA,Lk,6,MHCI
+MHC_Sample94_lk_MA,Lk,4,MHCI
+MHC_Sample95_lk_MA,Lk,4,MHCI
+MHC_Sample96_lk_MA,Lk,4,MHCI
+MHC_Sample97_lk_MA,Lk,5,MHCI
+MHC_Sample98_lk_MA,Lk,4,MHCI
+MHC_Sample100_lk_MA,Lk,4,MHCI
+MHC_Sample101_lk_MA,Lk,5,MHCI
+MHC_Sample102_lk_MA,Lk,4,MHCI
+MHC_Sample103_lk_MA,Lk,4,MHCI
+MHC_Sample104_lk_MA,Lk,4,MHCI
+MHC_Sample106_lk_MA,Lk,6,MHCI
+MHC_Sample107_lk_MA,Lk,5,MHCI
+MHC_Sample108_lk_MA,Lk,5,MHCI
+MHC_Sample109_lk_MA,Lk,4,MHCI
+MHC_Sample111_lk_MA,Lk,6,MHCI
+MHC_Sample112_lk_MA,Lk,6,MHCI
+MHC_Sample113_lk_MA,Lk,4,MHCI
+MHC_Sample114_lk_MA,Lk,5,MHCI
+MHC_Sample115_lk_MA,Lk,5,MHCI
+MHC_Sample116_lk_MA,Lk,3,MHCI
+MHC_Sample118_lk_MA,Lk,6,MHCI
+MHC_Sample119_lk_MA,Lk,6,MHCI
+MHC_Sample120_lk_MA,Lk,5,MHCI
+MHC_Sample121_lk_MA,Lk,4,MHCI
+MHC_Sample122_lk_MA,Lk,7,MHCI
+MHC_Sample123_lk_MA,Lk,4,MHCI
+MHC_Sample124_lk_MA,Lk,5,MHCI
+MHC_Sample126_lk_MA,Lk,5,MHCI
+MHC_Sample127_lk_MA,Lk,6,MHCI
+MHC_Sample128_lk_MA,Lk,5,MHCI
+MHC_Sample129_lk_MA,Lk,7,MHCI
+MHC_Sample130_lk_MA,Lk,4,MHCI
+MHC_Sample131_lk_MA,Lk,4,MHCI
+MHC_Sample132_lk_MA,Lk,5,MHCI
+MHC_Sample134_lk_MA,Lk,5,MHCI
+MHC_Sample136_lk_MA,Lk,4,MHCI
+MHC_Sample137_lk_MA,Lk,4,MHCI
+MHC_Sample138_lk_MA,Lk,6,MHCI
+MHC_Sample139_lk_MA,Lk,4,MHCI
+MHC_Sample140_lk_MA,Lk,5,MHCI
+MHC_Sample143_lk_MA,Lk,6,MHCI
+MHC_Sample144_lk_MA,Lk,5,MHCI
+MHC_Sample145_lk_MA,Lk,5,MHCI
+MHC_Sample146_lk_MA,Lk,4,MHCI
+MHC_Sample147_lk_MA,Lk,7,MHCI
+MHC_Sample148_lk_MA,Lk,5,MHCI
+MHC_Sample151_lk_MA,Lk,5,MHCI
+MHC_Sample152_lk_MA,Lk,6,MHCI
+MHC_Sample153_lk_MA,Lk,5,MHCI
+MHC_Sample154_lk_MA,Lk,5,MHCI
+MHC_Sample155_lk_MA,Lk,5,MHCI
+MHC_Sample158_lk_MA,Lk,4,MHCI
+MHC_Sample159_lk_MA,Lk,5,MHCI
+MHC_Sample160_lk_MA,Lk,5,MHCI
+14920_Cm,Cm,1,MHCI
+HH4811_12_Cm,Cm,3,MHCI
+5648_Cm,Cm,2,MHCI
+16446_Cm,Cm,5,MHCI
+16448_Cm,Cm,2,MHCI
+5404_Cm,Cm,2,MHCI
+14917_Cm,Cm,4,MHCI
+HH0029_Cc,Cc,4,MHCI
+51195_Cc,Cc,7,MHCI
+EEF924_Cc,Cc,5,MHCI
+HH4818_19_Cm,Cm,5,MHCI
+TRIDENT_CC_NO_TAG_2018_Cm,Cm,5,MHCI
+HA670_Cm,Cm,1,MHCI
+HH4810_Cm,Cm,5,MHCI
+HA660_Cm,Cm,1,MHCI
+X8256_Cm,Cm,6,MHCI
+5636_Cm,Cm,5,MHCI
+X8079_Cm,Cm,4,MHCI
+12661_Cm,Cm,1,MHCI
+W0454_Cm,Cm,2,MHCI
+7022_Cm,Cm,2,MHCI
+5637_Cm,Cm,3,MHCI
+6673_Cm,Cm,3,MHCI
+X8084_Cm,Cm,5,MHCI
+BP8350B_Cm,Cm,2,MHCI
+8346_Cm,Cm,4,MHCI
+5632_Cm,Cm,5,MHCI
+5551_Cm,Cm,5,MHCI
+5410_Cm,Cm,5,MHCI
+6674_Cm,Cm,6,MHCI
+W1588_Cm,Cm,3,MHCI
+7026_Cm,Cm,3,MHCI
+W0238_Cm,Cm,4,MHCI
+12640_Cm,Cm,3,MHCI
+13411_Cm,Cm,5,MHCI
+5639_Cm,Cm,5,MHCI
+W0567_Cm,Cm,5,MHCI
+7024_Cm,Cm,7,MHCI
+15035_Cm,Cm,1,MHCI
+21420_B_Cm,Cm,5,MHCI
+14727_Cm,Cm,6,MHCI
+21464_Cm,Cm,3,MHCI
+5409_Cm,Cm,2,MHCI
+5552_Cm,Cm,3,MHCI
+5634_Cm,Cm,4,MHCI
+5635_Cm,Cm,3,MHCI
+5638_Cm,Cm,5,MHCI
+5621_Cm,Cm,2,MHCI
+HH2374_Cm,Cm,4,MHCI
+21412_Cm,Cm,3,MHCI
+12657_Cm,Cm,2,MHCI
+15036_Cm,Cm,3,MHCI
+14322_Cm,Cm,5,MHCI
+8414_Cm,Cm,1,MHCI
+12554_Cm,Cm,2,MHCI
+5633_Cm,Cm,3,MHCI
+5733_Cm,Cm,3,MHCI
+BP7052_Cm,Cm,4,MHCI
+5537_Cm,Cm,3,MHCI
+8351_Cm,Cm,5,MHCI
+6977_Cm,Cm,4,MHCI
+5737_Cm,Cm,2,MHCI
+5422_Cm,Cm,3,MHCI
+14318_B_Cm,Cm,2,MHCI
+EEF833_Cm,Cm,3,MHCI
+14737_Cm,Cm,1,MHCI
+BP3106_Cm,Cm,1,MHCI
+51217_Cm,Cm,6,MHCI
+21467_Cm,Cm,5,MHCI
+21421_Cm,Cm,5,MHCI
+12392_Cm,Cm,4,MHCI
+W1144_Cm,Cm,3,MHCI
+EEF953_Cm,Cm,2,MHCI
+15038_Cm,Cm,6,MHCI
+12951_Cm,Cm,3,MHCI
+5973_Cm,Cm,3,MHCI
+12495_Cm,Cm,2,MHCI
+8499_Cm,Cm,5,MHCI
+51218_Cm,Cm,3,MHCI
+HB7555_Cm,Cm,5,MHCI
+15033_Cm,Cm,1,MHCI
+14751_Cm,Cm,4,MHCI
+HH0021_Cm,Cm,3,MHCI
+12643_Cm,Cm,2,MHCI
+14863_B_Cm,Cm,2,MHCI
+HB0443_Cm,Cm,1,MHCI
+21465_Cm,Cm,6,MHCI
+13396_B_Cm,Cm,3,MHCI
+5974_Cm,Cm,3,MHCI
+EEF922_Cm,Cm,4,MHCI
+6859_Cm,Cm,3,MHCI
+5413_Cm,Cm,5,MHCI
+8444_Cm,Cm,6,MHCI
+5917_Cm,Cm,6,MHCI
+51213_Cm,Cm,5,MHCI
+EEC992_Cm,Cm,4,MHCI
+21422_Cm,Cm,2,MHCI
+21419_Cm,Cm,1,MHCI
+12630_Cm,Cm,2,MHCI
+16444_Cm,Cm,2,MHCI
+51125_Cm,Cm,2,MHCI
+HH0334_Cm,Cm,5,MHCI
+5629_Cm,Cm,2,MHCI
+14753_Cm,Cm,3,MHCI
+14869_Cm,Cm,5,MHCI
+14738_Cm,Cm,4,MHCI
+12556_Cm,Cm,5,MHCI
+8354_Cm,Cm,5,MHCI
+HH4863_64_Cm,Cm,2,MHCI
+15032_B_Cm,Cm,3,MHCI
+6975_Cm,Cm,5,MHCI
+51169_Cm,Cm,3,MHCI
+6976_Cm,Cm,6,MHCI
+16454_Cm,Cm,4,MHCI
+12633_Cm,Cm,3,MHCI
+11389_Cm,Cm,4,MHCI
+5972_Cm,Cm,2,MHCI
+12035_Cm,Cm,2,MHCI
+8421_Cm,Cm,3,MHCI
+51214_Cm,Cm,3,MHCI
+13412_Cm,Cm,3,MHCI
+5407_Cm,Cm,4,MHCI
+7027_Cm,Cm,4,MHCI
+51209_Cm,Cm,6,MHCI
+5420_Cm,Cm,5,MHCI
+5732_Cm,Cm,2,MHCI
+16435_B_Cm,Cm,2,MHCI
+8420_Cm,Cm,2,MHCI
+21439_Cm,Cm,4,MHCI
+5405_Cm,Cm,5,MHCI
+14985_B_Cm,Cm,2,MHCI
+5735_Cm,Cm,3,MHCI
+EEF994_Cm,Cm,3,MHCI
+HH0391_Cm,Cm,5,MHCI
+13435_Cm,Cm,4,MHCI
+8464_Cm,Cm,3,MHCI
+5626_Cm,Cm,3,MHCI
+EEF865_Cm,Cm,4,MHCI
+5627_Cm,Cm,5,MHCI
+HB4785_Cm,Cm,3,MHCI
+HB0720_Cm,Cm,1,MHCI
+5622_Cm,Cm,2,MHCI
+5918_Cm,Cm,3,MHCI
+16439_Cm,Cm,2,MHCI
+HH4852_51_Cm,Cm,2,MHCI
+8418_Cm,Cm,4,MHCI
+5624_Cm,Cm,5,MHCI
+12715_B_Cm,Cm,3,MHCI
+EEF936_Cm,Cm,4,MHCI
+HH0470_Cm,Cm,2,MHCI
+13437_Cm,Cm,3,MHCI
+51197_Cm,Cm,3,MHCI
+HB4775_Cm,Cm,4,MHCI
+21466_Cm,Cm,3,MHCI
+HB4711_Cm,Cm,5,MHCI
+HB4773_Cm,Cm,5,MHCI
+13441_Cm,Cm,3,MHCI
+HH0038_Cm,Cm,2,MHCI
+HB4797_Cm,Cm,3,MHCI
+5631_Cm,Cm,3,MHCI
+5647_Cm,Cm,4,MHCI
+21414_Cm,Cm,3,MHCI
+HB7593_Cm,Cm,3,MHCI
+51191_Cm,Cm,4,MHCI
+8452_Cm,Cm,3,MHCI
+15045_Cm,Cm,2,MHCI
+HB4709_Cm,Cm,5,MHCI
+21452_Cm,Cm,4,MHCI
+5625_Cm,Cm,3,MHCI
+HH0413_Cc,Cc,4,MHCI
+13447_Cm,Cm,3,MHCI
+51126_Cm,Cm,3,MHCI
+8465_Cm,Cm,4,MHCI
+8469_Cm,Cm,3,MHCI
+21417_Cm,Cm,2,MHCI
+21440_Cm,Cm,6,MHCI
+EEF911_Cm,Cm,3,MHCI
+5620_Cm,Cm,5,MHCI
+21455_Cm,Cm,3,MHCI
+8413_Cm,Cm,5,MHCI
+8415_Cm,Cm,4,MHCI
+HA625_Cm,Cm,2,MHCI
+13426_Cm,Cm,4,MHCI
+15046_Cm,Cm,2,MHCI
+XBP8275B_Cm,Cm,3,MHCI
+HB4763_Cm,Cm,2,MHCI
+21438_Cm,Cm,5,MHCI
+16436_Cm,Cm,3,MHCI
+HB4789_Cm,Cm,3,MHCI
+51145_Cm,Cm,5,MHCI
+15043_Cm,Cm,1,MHCI
+15031_B_Cm,Cm,3,MHCI
+7021_Cm,Cm,3,MHCI
+12635_Cm,Cm,3,MHCI
+HB4741_Cm,Cm,5,MHCI
+HH0009_Cm,Cm,5,MHCI
+8451_Cm,Cm,4,MHCI
+5408_Cm,Cm,5,MHCI
+12650_Cm,Cm,3,MHCI
+8448_Cm,Cm,5,MHCI
+5642_Cm,Cm,2,MHCI
+EEF939_Cm,Cm,3,MHCI
+5630_Cm,Cm,4,MHCI
+12654_B_Cm,Cm,6,MHCI
+12483_Cm,Cm,2,MHCI
+12562_B_Cm,Cm,2,MHCI
+8442_Cm,Cm,3,MHCI
+8348_Cm,Cm,4,MHCI
+12658_Cm,Cm,5,MHCI
+5641_Cm,Cm,4,MHCI
+21413_Cm,Cm,3,MHCI
+1333_B_Cm,Cm,3,MHCI
+EEF983_Cm,Cm,3,MHCI
+51156_Cm,Cm,4,MHCI
+HH0007_Cm,Cm,4,MHCI
+12659_Cm,Cm,3,MHCI
+5412_Cm,Cm,3,MHCI
+HH2358_Cm,Cm,5,MHCI
+13424_Cm,Cm,3,MHCI
+8349_Cm,Cm,2,MHCI
+7020_Cm,Cm,2,MHCI
+EEF915_Cm,Cm,2,MHCI
+12029_Cm,Cm,5,MHCI
+12656_Cm,Cm,3,MHCI
+5967_Cm,Cm,6,MHCI
+8417_Cm,Cm,5,MHCI
+8347_Cm,Cm,5,MHCI
+HH0011_Cm,Cm,3,MHCI
+EEF951_Cm,Cm,3,MHCI
+HH0005_Cm,Cm,5,MHCI
+5549_Cm,Cm,4,MHCI
+13088_B_Cm,Cm,5,MHCI
+12555_Cm,Cm,3,MHCI
+13406_Cm,Cm,2,MHCI
+12548_Cm,Cm,3,MHCI
+12651_Cm,Cm,4,MHCI
+12637_Cm,Cm,3,MHCI
+15080_Cc,Cc,2,MHCI
+16431_Cm,Cm,2,MHCI
+16434_Cm,Cm,2,MHCI
+HH0430_Cm,Cm,2,MHCI
+EEF873_Cm,Cm,2,MHCI
+5927_Cm,Cm,3,MHCI
+21432_Cm,Cm,5,MHCI
+21411_Cm,Cm,6,MHCI
+13444_Cm,Cm,2,MHCI
+5640_Cm,Cm,3,MHCI
+18702_Cc,Cc,3,MHCI
+51159_Cm,Cm,3,MHCI
+18256_Cc,Cc,4,MHCI
+5548_Cm,Cm,6,MHCI
+HB4717_Cm,Cm,6,MHCI
+21442_Cm,Cm,3,MHCI
+18624_Cc,Cc,4,MHCI
+12639_Cm,Cm,3,MHCI
+18626_Cc,Cc,3,MHCI
+18700_Cc,Cc,2,MHCI
+18706_Cc,Cc,3,MHCI
+HH0088_89_Cc,Cc,6,MHCI
+15042_Cm,Cm,3,MHCI
+4C12756E20_Cc,Cc,1,MHCI
+16429_Cc,Cc,5,MHCI
+12634_Cm,Cm,3,MHCI
+18639_Cc,Cc,2,MHCI
+XX9972_73_Cc,Cc,3,MHCI
+51305_Cc,Cc,3,MHCI
+51166_Cc,Cc,3,MHCI
+21433_Cm,Cm,3,MHCI
+W1586_Cm,Cm,4,MHCI
+HB4734_33_18MAR16_Cc,Cc,7,MHCI
+51450_Cc,Cc,5,MHCI
+HH0023_Cc,Cc,2,MHCI
+13432_Cm,Cm,3,MHCI
+HH0025_Cc,Cc,4,MHCI
+51149_Cm,Cm,3,MHCI
+16427_Cc,Cc,3,MHCI
+51124_Cc,Cc,5,MHCI
+51303_Cc,Cc,4,MHCI
+51201_Cc,Cc,6,MHCI
+866_Cc,Cc,1,MHCI
+16432_Cm,Cm,4,MHCI
+51199_Cc,Cc,3,MHCI
+17496_Cc,Cc,2,MHCI
+EEF969_Cc,Cc,6,MHCI
+14747_Cm,Cm,6,MHCI
+51279_Cc,Cc,3,MHCI
+51449_Cc,Cc,4,MHCI
+18649_Cc,Cc,3,MHCI
+EEF959_Cc,Cc,4,MHCI
+16393_Cc,Cc,4,MHCI
+HH0013_Cc,Cc,5,MHCI
+51389_Cc,Cc,2,MHCI
+51297_Cc,Cc,5,MHCI
+5290_Cm,Cm,6,MHCI
+51284_Cc,Cc,6,MHCI
+18613_Cc,Cc,4,MHCI
+51311_Cc,Cc,3,MHCI
+18640_Cc,Cc,5,MHCI
+17659_Cc,Cc,3,MHCI
+HB4759_Cc,Cc,3,MHCI
+51190_Cc,Cc,4,MHCI
+EEF830_Cc,Cc,5,MHCI
+EEF996_Cm,Cm,5,MHCI
+18627_Cc,Cc,6,MHCI
+15030_Cc,Cc,6,MHCI
+51307_Cc,Cc,5,MHCI
+51463_Cc,Cc,3,MHCI
+18680_Cc,Cc,3,MHCI
+51295_Cc,Cc,5,MHCI
+51220_Cc,Cc,5,MHCI
+16426_Cc,Cc,1,MHCI
+18638_Cc,Cc,4,MHCI
+18703_Cc,Cc,3,MHCI
+51462_Cc,Cc,3,MHCI
+51306_Cc,Cc,4,MHCI
+EEF822_Cc,Cc,4,MHCI
+51203_B_Cc,Cc,6,MHCI
+18612_Cc,Cc,5,MHCI
+12549_Cm,Cm,2,MHCI
+51208_Cc,Cc,5,MHCI
+51219_Cc,Cc,5,MHCI
+51202_Cc,Cc,4,MHCI
+HH4837_36_Cc,Cc,4,MHCI
+13087_Cm,Cm,4,MHCI
+4C12794E78_Cc,Cc,2,MHCI
+51455_Cc,Cc,2,MHCI
+HH0019_Cc,Cc,3,MHCI
+EEF945_Cc,Cc,4,MHCI
+16449_Cc,Cc,2,MHCI
+7949_Cm,Cm,5,MHCI
+HH4839_40_Cc,Cc,2,MHCI
+51204_Cc,Cc,7,MHCI
+51314_Cc,Cc,7,MHCI
+HH0051_Cc,Cc,4,MHCI
+51198_Cc,Cc,3,MHCI
+15037_Cc,Cc,5,MHCI
+EEF976_Cc,Cc,4,MHCI
+51181_Cc,Cc,4,MHCI
+16443_Cc,Cc,2,MHCI
+HH0015_Cc,Cc,5,MHCI
+51180_Cc,Cc,5,MHCI
+HH1523_Cc,Cc,3,MHCI
+51175_Cc,Cc,5,MHCI
+51128_Cc,Cc,5,MHCI
+51127_Cc,Cc,5,MHCI
+51451_Cc,Cc,7,MHCI
+HH0055_Cc,Cc,3,MHCI
+HH0422_Cc,Cc,1,MHCI
+HH2368_Cm,Cm,1,MHCI
+HH0420_Cm,Cm,2,MHCI
+5403_Cm,Cm,5,MHCI
+HH0389_Cm,Cm,4,MHCI
+8498_Cm,Cm,2,MHCI
+HH0076_Cm,Cm,3,MHCI
+HH0069_Cm,Cm,2,MHCI
+HH0071_Cm,Cm,1,MHCI
+8Lk-WP45,Lk,3,MHCI
+10Lk-WP56,Lk,4,MHCI
+18Lk-WP18,Lk,2,MHCI
+18Lk-5-23,Lk,6,MHCI
+21Lk-WP50,Lk,5,MHCI
+22Lk-WP57,Lk,5,MHCI
+2016-Lk6,Lk,6,MHCI
+15222-Dc-B,Dc,4,MHCI
+15232-Dc-B,Dc,4,MHCI
+18654-Dc-B,Dc,2,MHCI
+18884-Dc-B,Dc,4,MHCI
+19919-Dc-A,Dc,4,MHCI
+19926-Dc-B,Dc,1,MHCI
+19929-Dc-B,Dc,1,MHCI
+19965-Dc-B,Dc,1,MHCI
+19973-Dc-B,Dc,1,MHCI
+21536-Dc-B,Dc,1,MHCI
+21559-Dc-B,Dc,2,MHCI
+21970-Dc-B,Dc,2,MHCI
+23064-Dc-B,Dc,2,MHCI
+23065-Dc-A,Dc,2,MHCI
+23081-Dc-B,Dc,1,MHCI
+23086-Dc-B,Dc,2,MHCI
+23089-Dc-B,Dc,2,MHCI
+23093-Dc-B,Dc,2,MHCI
+23095-Dc-B,Dc,2,MHCI
+23101-Dc-B,Dc,2,MHCI
+23102-Dc-B,Dc,4,MHCI
+23112-Dc-B,Dc,2,MHCI
+23118-Dc-B,Dc,1,MHCI
+23128-Dc-B,Dc,2,MHCI
+23131-Dc-B,Dc,1,MHCI
+27928-Dc-B,Dc,2,MHCI
+28012-Dc-A,Dc,2,MHCI
+28021-Dc-A,Dc,3,MHCI
+28022-Dc-B,Dc,2,MHCI
+28107-Dc-B,Dc,2,MHCI
+29725-Dc-B,Dc,3,MHCI
+29756-Dc-B,Dc,1,MHCI
+29798-Dc-A,Dc,2,MHCI
+31764-Dc-B,Dc,2,MHCI
+32668-Dc-B,Dc,2,MHCI
+32675-Dc-B,Dc,4,MHCI
+34012-Dc-A,Dc,2,MHCI
+34061-Dc-B,Dc,2,MHCI
+52562-Dc-B,Dc,4,MHCI
+52599-Dc-B,Dc,2,MHCI
+53241-Dc-B,Dc,1,MHCI
+53310-Dc-B,Dc,4,MHCI
+53618-Dc-A,Dc,1,MHCI
+53642-Dc-A,Dc,2,MHCI
+53657-Dc-B,Dc,2,MHCI
+53738-Dc-B,Dc,2,MHCI
+53739-Dc-B,Dc,4,MHCI
+54733-Dc-B,Dc,2,MHCI
+54976-Dc-B,Dc,2,MHCI
+55862-Dc-B,Dc,2,MHCI
+55933-Dc-B,Dc,1,MHCI
+55957-Dc-B,Dc,2,MHCI
+56578-Dc-B,Dc,2,MHCI
+56609-Dc-B,Dc,2,MHCI
+56707-Dc-B,Dc,2,MHCI
+56726-Dc-B,Dc,2,MHCI
+57514-Dc-B,Dc,2,MHCI
+57825-Dc-B,Dc,2,MHCI
+57864-Dc-B,Dc,2,MHCI
+58552-Dc-B,Dc,1,MHCI
+58558-Dc-B,Dc,2,MHCI
+58649-Dc-B,Dc,4,MHCI
+147163-Lk-B,Lk,5,MHCI
+181508-Lk-B,Lk,2,MHCI
+210556-Lk-B,Lk,5,MHCI
+210561-Lk-B,Lk,6,MHCI
+214590-Lk-B,Lk,5,MHCI
+Lk-WP50,Lk,5,MHCI
+STG096-Lk-A,Lk,5,MHCI
+STG099-Lk-A,Lk,3,MHCI
+STG109-Lk-A,Lk,5,MHCI
+STG167-Lk-A,Lk,4,MHCI
+STG168-Lk-A,Lk,4,MHCI
+STG169-Lk-A,Lk,4,MHCI
+STG170-Lk-A,Lk,5,MHCI
+STG176-Lk-A,Lk,7,MHCI
+STG177-Lk-A,Lk,4,MHCI
+STG179-Lk-A,Lk,5,MHCI
+STG180-Lk-A,Lk,2,MHCI
+STG181-Lk-A,Lk,4,MHCI
+STG186-Lk-A,Lk,3,MHCI
+STG194-Lk-A,Lk,4,MHCI
+STG209-Lk-A,Lk,4,MHCI
+STG211-Lk-A,Lk,5,MHCI
+STG221-Lk-A,Lk,4,MHCI
+STG225-Lk-A,Lk,7,MHCI
+STG229-Lk-A,Lk,7,MHCI
+STG252-Lk-A,Lk,4,MHCI
+STG254-Lk-A,Lk,5,MHCI
+STG260-Lk-A,Lk,2,MHCI
+STG268-Lk-A,Lk,2,MHCI
+STG278-Lk-A,Lk,2,MHCI
+STG290-Lk-A,Lk,6,MHCI
+8Lk-WP45,Lk,2,MHCII chromosome 14
+10Lk-WP56,Lk,5,MHCII chromosome 14
+18Lk-WP18,Lk,5,MHCII chromosome 14
+21Lk-WP50,Lk,3,MHCII chromosome 14
+22Lk-WP57,Lk,3,MHCII chromosome 14
+2016-Lk6,Lk,4,MHCII chromosome 14
+5290-Cm,Cm,3,MHCII chromosome 14
+5404-Cm,Cm,7,MHCII chromosome 14
+5420-Cm,Cm,7,MHCII chromosome 14
+5648-Cm,Cm,8,MHCII chromosome 14
+5733-Cm,Cm,5,MHCII chromosome 14
+5918-Cm,Cm,4,MHCII chromosome 14
+5927-Cm,Cm,6,MHCII chromosome 14
+5967-Cm,Cm,6,MHCII chromosome 14
+5972-Cm,Cm,7,MHCII chromosome 14
+5973-Cm,Cm,8,MHCII chromosome 14
+5974-Cm,Cm,6,MHCII chromosome 14
+6859-Cm,Cm,7,MHCII chromosome 14
+6975-Cm,Cm,6,MHCII chromosome 14
+6976-Cm,Cm,5,MHCII chromosome 14
+6977-Cm,Cm,7,MHCII chromosome 14
+7020-Cm,Cm,8,MHCII chromosome 14
+7021-Cm,Cm,7,MHCII chromosome 14
+7024-Cm,Cm,7,MHCII chromosome 14
+7026-Cm,Cm,6,MHCII chromosome 14
+7027-Cm,Cm,6,MHCII chromosome 14
+7949-Cm,Cm,7,MHCII chromosome 14
+8346-Cm,Cm,8,MHCII chromosome 14
+8347-Cm,Cm,6,MHCII chromosome 14
+8348-Cm,Cm,5,MHCII chromosome 14
+8349-Cm,Cm,7,MHCII chromosome 14
+8351-Cm,Cm,7,MHCII chromosome 14
+8354-Cm,Cm,5,MHCII chromosome 14
+8413-Cm,Cm,6,MHCII chromosome 14
+8414-Cm,Cm,7,MHCII chromosome 14
+8415-Cm,Cm,6,MHCII chromosome 14
+8417-Cm,Cm,6,MHCII chromosome 14
+8442-Cm,Cm,4,MHCII chromosome 14
+8464-Cm,Cm,5,MHCII chromosome 14
+12029-Cm,Cm,7,MHCII chromosome 14
+12392-Cm,Cm,6,MHCII chromosome 14
+12483-Cm,Cm,3,MHCII chromosome 14
+12495-Cm,Cm,7,MHCII chromosome 14
+12548-Cm,Cm,8,MHCII chromosome 14
+12554-Cm,Cm,6,MHCII chromosome 14
+12556-Cm,Cm,4,MHCII chromosome 14
+12634-Cm,Cm,7,MHCII chromosome 14
+12635-Cm,Cm,3,MHCII chromosome 14
+12651-Cm,Cm,5,MHCII chromosome 14
+12657-Cm,Cm,6,MHCII chromosome 14
+12658-Cm,Cm,3,MHCII chromosome 14
+12715-B-Cm,Cm,8,MHCII chromosome 14
+12951-Cm,Cm,7,MHCII chromosome 14
+13412-Cm,Cm,7,MHCII chromosome 14
+14322-Cm,Cm,4,MHCII chromosome 14
+14727-Cm,Cm,5,MHCII chromosome 14
+14737-Cm,Cm,6,MHCII chromosome 14
+14747-Cm,Cm,8,MHCII chromosome 14
+14751-Cm,Cm,5,MHCII chromosome 14
+14753-Cm,Cm,6,MHCII chromosome 14
+14863-B-Cm,Cm,6,MHCII chromosome 14
+14869-Cm,Cm,5,MHCII chromosome 14
+14917-Cm,Cm,8,MHCII chromosome 14
+14985-B-Cm,Cm,7,MHCII chromosome 14
+15030-Cc,Cc,6,MHCII chromosome 14
+15032-B-Cm,Cm,6,MHCII chromosome 14
+15033-Cm,Cm,5,MHCII chromosome 14
+15035-Cm,Cm,5,MHCII chromosome 14
+15036-Cm,Cm,6,MHCII chromosome 14
+15042-Cm,Cm,4,MHCII chromosome 14
+15045-Cm,Cm,3,MHCII chromosome 14
+15046-Cm,Cm,5,MHCII chromosome 14
+15080-Cc,Cc,6,MHCII chromosome 14
+15222-Dc-B,Dc,3,MHCII chromosome 14
+15232-Dc-B,Dc,4,MHCII chromosome 14
+16427-Cc,Cc,5,MHCII chromosome 14
+16429-Cc,Cc,9,MHCII chromosome 14
+16443-Cc,Cc,6,MHCII chromosome 14
+16446-Cm,Cm,3,MHCII chromosome 14
+16449-Cc,Cc,6,MHCII chromosome 14
+17496-Cc,Cc,6,MHCII chromosome 14
+17659-Cc,Cc,6,MHCII chromosome 14
+18256-Cc,Cc,5,MHCII chromosome 14
+18612-Cc,Cc,10,MHCII chromosome 14
+18613-Cc,Cc,8,MHCII chromosome 14
+18624-Cc,Cc,7,MHCII chromosome 14
+18626-Cc,Cc,7,MHCII chromosome 14
+18627-Cc,Cc,7,MHCII chromosome 14
+18654-Dc-B,Dc,3,MHCII chromosome 14
+18680-Cc,Cc,2,MHCII chromosome 14
+18703-Cc,Cc,6,MHCII chromosome 14
+18706-Cc,Cc,6,MHCII chromosome 14
+18884-Dc-B,Dc,4,MHCII chromosome 14
+19919-Dc-A,Dc,3,MHCII chromosome 14
+19926-Dc-B,Dc,3,MHCII chromosome 14
+19929-Dc-B,Dc,4,MHCII chromosome 14
+19965-Dc-B,Dc,2,MHCII chromosome 14
+19973-Dc-B,Dc,3,MHCII chromosome 14
+21411-Cm,Cm,3,MHCII chromosome 14
+21413-Cm,Cm,8,MHCII chromosome 14
+21414-Cm,Cm,10,MHCII chromosome 14
+21417-Cm,Cm,6,MHCII chromosome 14
+21419-Cm,Cm,5,MHCII chromosome 14
+21420-B-Cm,Cm,4,MHCII chromosome 14
+21421-Cm,Cm,6,MHCII chromosome 14
+21422-Cm,Cm,5,MHCII chromosome 14
+21433-Cm,Cm,6,MHCII chromosome 14
+21438-Cm,Cm,5,MHCII chromosome 14
+21536-Dc-B,Dc,4,MHCII chromosome 14
+21559-Dc-B,Dc,4,MHCII chromosome 14
+21970-Dc-B,Dc,4,MHCII chromosome 14
+23064-Dc-B,Dc,3,MHCII chromosome 14
+23065-Dc-A,Dc,4,MHCII chromosome 14
+23081-Dc-B,Dc,3,MHCII chromosome 14
+23086-Dc-B,Dc,4,MHCII chromosome 14
+23089-Dc-B,Dc,2,MHCII chromosome 14
+23093-Dc-B,Dc,3,MHCII chromosome 14
+23095-Dc-B,Dc,3,MHCII chromosome 14
+23101-Dc-B,Dc,3,MHCII chromosome 14
+23102-Dc-B,Dc,3,MHCII chromosome 14
+23112-Dc-B,Dc,4,MHCII chromosome 14
+23118-Dc-B,Dc,4,MHCII chromosome 14
+23128-Dc-B,Dc,4,MHCII chromosome 14
+23131-Dc-B,Dc,3,MHCII chromosome 14
+27928-Dc-B,Dc,4,MHCII chromosome 14
+28012-Dc-A,Dc,4,MHCII chromosome 14
+28021-Dc-A,Dc,3,MHCII chromosome 14
+28022-Dc-B,Dc,4,MHCII chromosome 14
+28107-Dc-B,Dc,4,MHCII chromosome 14
+29756-Dc-B,Dc,4,MHCII chromosome 14
+29798-Dc-A,Dc,4,MHCII chromosome 14
+31764-Dc-B,Dc,3,MHCII chromosome 14
+32668-Dc-B,Dc,4,MHCII chromosome 14
+32675-Dc-B,Dc,3,MHCII chromosome 14
+34012-Dc-A,Dc,4,MHCII chromosome 14
+34061-Dc-B,Dc,3,MHCII chromosome 14
+51124-Cc,Cc,7,MHCII chromosome 14
+51127-Cc,Cc,7,MHCII chromosome 14
+51128-Cc,Cc,6,MHCII chromosome 14
+51145-Cm,Cm,5,MHCII chromosome 14
+51149-Cm,Cm,7,MHCII chromosome 14
+51166-Cc,Cc,8,MHCII chromosome 14
+51180-Cc,Cc,7,MHCII chromosome 14
+51181-Cc,Cc,5,MHCII chromosome 14
+51190-Cc,Cc,5,MHCII chromosome 14
+51191-Cm,Cm,4,MHCII chromosome 14
+51195-Cc,Cc,8,MHCII chromosome 14
+51198-Cc,Cc,7,MHCII chromosome 14
+51199-Cc,Cc,5,MHCII chromosome 14
+51201-Cc,Cc,6,MHCII chromosome 14
+51202-Cc,Cc,6,MHCII chromosome 14
+51203-B-Cc,Cc,7,MHCII chromosome 14
+51204-Cc,Cc,7,MHCII chromosome 14
+51208-Cc,Cc,7,MHCII chromosome 14
+51213-Cm,Cm,6,MHCII chromosome 14
+51214-Cm,Cm,6,MHCII chromosome 14
+51217-Cm,Cm,4,MHCII chromosome 14
+51218-Cm,Cm,4,MHCII chromosome 14
+51219-Cc,Cc,7,MHCII chromosome 14
+51220-Cc,Cc,6,MHCII chromosome 14
+51279-Cc,Cc,7,MHCII chromosome 14
+51284-Cc,Cc,5,MHCII chromosome 14
+51295-Cc,Cc,7,MHCII chromosome 14
+51297-Cc,Cc,5,MHCII chromosome 14
+51303-Cc,Cc,6,MHCII chromosome 14
+51305-Cc,Cc,7,MHCII chromosome 14
+51306-Cc,Cc,8,MHCII chromosome 14
+51311-Cc,Cc,9,MHCII chromosome 14
+51314-Cc,Cc,8,MHCII chromosome 14
+51389-Cc,Cc,7,MHCII chromosome 14
+51449-Cc,Cc,6,MHCII chromosome 14
+51450-Cc,Cc,5,MHCII chromosome 14
+51451-Cc,Cc,6,MHCII chromosome 14
+51455-Cc,Cc,5,MHCII chromosome 14
+51462-Cc,Cc,5,MHCII chromosome 14
+51463-Cc,Cc,6,MHCII chromosome 14
+52562-Dc-B,Dc,2,MHCII chromosome 14
+52599-Dc-B,Dc,3,MHCII chromosome 14
+53241-Dc-B,Dc,4,MHCII chromosome 14
+53310-Dc-B,Dc,4,MHCII chromosome 14
+53618-Dc-A,Dc,4,MHCII chromosome 14
+53642-Dc-A,Dc,3,MHCII chromosome 14
+53657-Dc-B,Dc,4,MHCII chromosome 14
+53738-Dc-B,Dc,3,MHCII chromosome 14
+53739-Dc-B,Dc,2,MHCII chromosome 14
+54733-Dc-B,Dc,3,MHCII chromosome 14
+54976-Dc-B,Dc,3,MHCII chromosome 14
+55025-Dc-B,Dc,4,MHCII chromosome 14
+55862-Dc-B,Dc,3,MHCII chromosome 14
+55933-Dc-B,Dc,4,MHCII chromosome 14
+55957-Dc-B,Dc,3,MHCII chromosome 14
+56578-Dc-B,Dc,5,MHCII chromosome 14
+56609-Dc-B,Dc,5,MHCII chromosome 14
+56707-Dc-B,Dc,2,MHCII chromosome 14
+56726-Dc-B,Dc,4,MHCII chromosome 14
+57514-Dc-B,Dc,4,MHCII chromosome 14
+57825-Dc-B,Dc,2,MHCII chromosome 14
+57864-Dc-B,Dc,3,MHCII chromosome 14
+58552-Dc-B,Dc,4,MHCII chromosome 14
+58558-Dc-B,Dc,3,MHCII chromosome 14
+58649-Dc-B,Dc,3,MHCII chromosome 14
+147163-Lk-B,Lk,5,MHCII chromosome 14
+181508-Lk-B,Lk,5,MHCII chromosome 14
+210556-Lk-B,Lk,5,MHCII chromosome 14
+210561-Lk-B,Lk,2,MHCII chromosome 14
+214590-Lk-B,Lk,5,MHCII chromosome 14
+9972-73-Cc,Cc,6,MHCII chromosome 14
+BP7052-Cm,Cm,6,MHCII chromosome 14
+EEC992-Cm,Cm,4,MHCII chromosome 14
+EEF830-Cc,Cc,7,MHCII chromosome 14
+EEF945-Cc,Cc,6,MHCII chromosome 14
+HB0443-Cm,Cm,4,MHCII chromosome 14
+HB0720-Cm,Cm,3,MHCII chromosome 14
+HB4709-Cm,Cm,5,MHCII chromosome 14
+HB4711-Cm,Cm,9,MHCII chromosome 14
+HB4773-Cm,Cm,5,MHCII chromosome 14
+HB4775-Cm,Cm,7,MHCII chromosome 14
+HB4785-Cm,Cm,4,MHCII chromosome 14
+HB4789-Cm,Cm,5,MHCII chromosome 14
+HB4797-Cm,Cm,6,MHCII chromosome 14
+HB7555-Cm,Cm,6,MHCII chromosome 14
+HB7593-Cm,Cm,7,MHCII chromosome 14
+HH0011-Cm,Cm,10,MHCII chromosome 14
+HH0013-Cc,Cc,7,MHCII chromosome 14
+HH0015-Cc,Cc,8,MHCII chromosome 14
+HH0019-Cc,Cc,8,MHCII chromosome 14
+HH0023-Cc,Cc,6,MHCII chromosome 14
+HH0025-Cc,Cc,3,MHCII chromosome 14
+HH0029-Cc,Cc,6,MHCII chromosome 14
+HH0038-Cm,Cm,10,MHCII chromosome 14
+HH0051-Cc,Cc,6,MHCII chromosome 14
+HH0076-Cm,Cm,9,MHCII chromosome 14
+HH0334-Cm,Cm,6,MHCII chromosome 14
+HH0391-Cm,Cm,8,MHCII chromosome 14
+HH0413-Cc,Cc,6,MHCII chromosome 14
+HH0420-Cm,Cm,9,MHCII chromosome 14
+HH0430-Cm,Cm,7,MHCII chromosome 14
+HH0470-Cm,Cm,6,MHCII chromosome 14
+HH2358-Cm,Cm,7,MHCII chromosome 14
+HH2368-Cm,Cm,9,MHCII chromosome 14
+HH4810-Cm,Cm,2,MHCII chromosome 14
+HH0088-89-Cc,Cc,6,MHCII chromosome 14
+HH4811-12-Cm,Cm,4,MHCII chromosome 14
+HH4839-40-Cc,Cc,6,MHCII chromosome 14
+HH4852-51-Cm,Cm,3,MHCII chromosome 14
+Lk-WP50,Lk,2,MHCII chromosome 14
+STG092-Cm,Cm,5,MHCII chromosome 14
+STG093-Cc,Cc,7,MHCII chromosome 14
+STG094-Cc,Cc,8,MHCII chromosome 14
+STG095-Cc,Cc,5,MHCII chromosome 14
+STG097-Cc,Cc,6,MHCII chromosome 14
+STG098-Cm,Cm,7,MHCII chromosome 14
+STG101-Cm,Cm,5,MHCII chromosome 14
+STG102-Cc,Cc,6,MHCII chromosome 14
+STG103-Cm,Cm,3,MHCII chromosome 14
+STG104-Cm,Cm,8,MHCII chromosome 14
+STG106-Cc,Cc,9,MHCII chromosome 14
+STG107-Cm,Cm,6,MHCII chromosome 14
+STG108-Cc,Cc,6,MHCII chromosome 14
+STG109-Lk-A,Lk,6,MHCII chromosome 14
+STG110-Cm,Cm,7,MHCII chromosome 14
+STG111-Cm,Cm,8,MHCII chromosome 14
+STG113-Cm,Cm,7,MHCII chromosome 14
+STG114-Cm,Cm,5,MHCII chromosome 14
+STG115-Cm,Cm,5,MHCII chromosome 14
+STG116-Cm,Cm,8,MHCII chromosome 14
+STG117-Cm,Cm,8,MHCII chromosome 14
+STG118-Cm,Cm,8,MHCII chromosome 14
+STG119-Cm,Cm,7,MHCII chromosome 14
+STG120-Cm,Cm,4,MHCII chromosome 14
+STG122-Cm,Cm,8,MHCII chromosome 14
+STG123-Cc,Cc,4,MHCII chromosome 14
+STG124-Cm,Cm,9,MHCII chromosome 14
+STG125-Cm,Cm,7,MHCII chromosome 14
+STG126-Cm,Cm,7,MHCII chromosome 14
+STG127-Cm,Cm,4,MHCII chromosome 14
+STG128-Cm,Cm,5,MHCII chromosome 14
+STG129-Cm,Cm,10,MHCII chromosome 14
+STG130-Cm,Cm,5,MHCII chromosome 14
+STG131-Cm,Cm,4,MHCII chromosome 14
+STG132-Cm,Cm,4,MHCII chromosome 14
+STG134-Cm,Cm,5,MHCII chromosome 14
+STG135-Cm,Cm,5,MHCII chromosome 14
+STG136-Cm,Cm,5,MHCII chromosome 14
+STG137-Cm,Cm,4,MHCII chromosome 14
+STG138-Cm,Cm,6,MHCII chromosome 14
+STG140-Cm,Cm,5,MHCII chromosome 14
+STG141-Cm,Cm,9,MHCII chromosome 14
+STG142-Cm,Cm,6,MHCII chromosome 14
+STG143-Cm,Cm,8,MHCII chromosome 14
+STG144-Cm,Cm,6,MHCII chromosome 14
+STG145-Cm,Cm,3,MHCII chromosome 14
+STG146-Cm,Cm,6,MHCII chromosome 14
+STG147-Cm,Cm,5,MHCII chromosome 14
+STG148-Cm,Cm,8,MHCII chromosome 14
+STG149-Cm,Cm,7,MHCII chromosome 14
+STG150-Cm,Cm,5,MHCII chromosome 14
+STG151-Cm,Cm,6,MHCII chromosome 14
+STG152-Cm,Cm,3,MHCII chromosome 14
+STG153-Cm,Cm,8,MHCII chromosome 14
+STG154-Cm,Cm,3,MHCII chromosome 14
+STG155-Cm,Cm,6,MHCII chromosome 14
+STG156-Cm,Cm,6,MHCII chromosome 14
+STG157-Cm,Cm,3,MHCII chromosome 14
+STG158-Cm,Cm,2,MHCII chromosome 14
+STG159-Cm,Cm,3,MHCII chromosome 14
+STG160-Cm,Cm,5,MHCII chromosome 14
+STG162-Cm,Cm,6,MHCII chromosome 14
+STG163-Cm,Cm,4,MHCII chromosome 14
+STG164-Cm,Cm,5,MHCII chromosome 14
+STG165-Cm,Cm,6,MHCII chromosome 14
+STG166-Cm,Cm,8,MHCII chromosome 14
+STG167-Lk-A,Lk,6,MHCII chromosome 14
+STG168-Lk-A,Lk,8,MHCII chromosome 14
+STG169-Lk-A,Lk,6,MHCII chromosome 14
+STG170-Lk-A,Lk,6,MHCII chromosome 14
+STG171-Cm,Cm,5,MHCII chromosome 14
+STG172-Cc,Cc,6,MHCII chromosome 14
+STG173-Cm,Cm,8,MHCII chromosome 14
+STG175-Cc,Cc,4,MHCII chromosome 14
+STG176-Lk-A,Lk,4,MHCII chromosome 14
+STG177-Lk-A,Lk,6,MHCII chromosome 14
+STG178-Cc,Cc,3,MHCII chromosome 14
+STG179-Lk-A,Lk,7,MHCII chromosome 14
+STG180-Lk-A,Lk,8,MHCII chromosome 14
+STG181-Lk-A,Lk,6,MHCII chromosome 14
+STG182-Cc,Cc,7,MHCII chromosome 14
+STG183-Cm,Cm,8,MHCII chromosome 14
+STG184-Lk-A,Lk,5,MHCII chromosome 14
+STG185-Cm,Cm,8,MHCII chromosome 14
+STG186-Lk-A,Lk,5,MHCII chromosome 14
+STG187-Cc,Cc,7,MHCII chromosome 14
+STG188-Cm,Cm,5,MHCII chromosome 14
+STG189-Cm,Cm,7,MHCII chromosome 14
+STG190-Lk-A,Lk,7,MHCII chromosome 14
+STG191-Cm,Cm,4,MHCII chromosome 14
+STG192-Cm,Cm,8,MHCII chromosome 14
+STG193-Cm,Cm,8,MHCII chromosome 14
+STG194-Lk-A,Lk,8,MHCII chromosome 14
+STG195-Cm,Cm,6,MHCII chromosome 14
+STG196-Cm,Cm,5,MHCII chromosome 14
+STG198-Cm,Cm,6,MHCII chromosome 14
+STG200-Cm,Cm,4,MHCII chromosome 14
+STG201-Cm,Cm,11,MHCII chromosome 14
+STG202-Cm,Cm,6,MHCII chromosome 14
+STG204-Cm,Cm,7,MHCII chromosome 14
+STG206-Cm,Cm,5,MHCII chromosome 14
+STG207-Cm,Cm,6,MHCII chromosome 14
+STG208-Cc,Cc,6,MHCII chromosome 14
+STG209-Lk-A,Lk,6,MHCII chromosome 14
+STG211-Lk-A,Lk,8,MHCII chromosome 14
+STG213-Lk-A,Lk,9,MHCII chromosome 14
+STG214-Cm,Cm,6,MHCII chromosome 14
+STG215-Cm,Cm,7,MHCII chromosome 14
+STG216-Cm,Cm,3,MHCII chromosome 14
+STG217-Cm,Cm,7,MHCII chromosome 14
+STG218-Cc,Cc,6,MHCII chromosome 14
+STG219-Cm,Cm,6,MHCII chromosome 14
+STG220-Cm,Cm,8,MHCII chromosome 14
+STG221-Lk-A,Lk,6,MHCII chromosome 14
+STG222-Cc,Cc,5,MHCII chromosome 14
+STG223-Cc,Cc,7,MHCII chromosome 14
+STG224-Cc,Cc,5,MHCII chromosome 14
+STG225-Lk-A,Lk,9,MHCII chromosome 14
+STG226-Cc,Cc,7,MHCII chromosome 14
+STG228-Cc,Cc,5,MHCII chromosome 14
+STG229-Lk-A,Lk,8,MHCII chromosome 14
+STG230-Cm,Cm,5,MHCII chromosome 14
+STG231-Cc,Cc,7,MHCII chromosome 14
+STG232-Cm,Cm,8,MHCII chromosome 14
+STG233-Cc,Cc,7,MHCII chromosome 14
+STG234-Cc,Cc,6,MHCII chromosome 14
+STG235-Cm,Cm,8,MHCII chromosome 14
+STG236-Cm,Cm,6,MHCII chromosome 14
+STG237-Cc,Cc,3,MHCII chromosome 14
+STG238-Cm,Cm,7,MHCII chromosome 14
+STG241-Cm,Cm,5,MHCII chromosome 14
+STG242-Cm,Cm,5,MHCII chromosome 14
+STG243-Cc,Cc,6,MHCII chromosome 14
+STG244-Cm,Cm,8,MHCII chromosome 14
+STG245-Cm,Cm,6,MHCII chromosome 14
+STG246-Lk-A,Lk,7,MHCII chromosome 14
+STG247-Cm,Cm,7,MHCII chromosome 14
+STG248-Cc,Cc,7,MHCII chromosome 14
+STG250-Cm,Cm,6,MHCII chromosome 14
+STG251-Cc,Cc,7,MHCII chromosome 14
+STG253-Cm,Cm,4,MHCII chromosome 14
+STG254-Lk-A,Lk,7,MHCII chromosome 14
+STG255-Cm,Cm,9,MHCII chromosome 14
+STG257-Cm,Cm,8,MHCII chromosome 14
+STG258-Cm,Cm,4,MHCII chromosome 14
+STG259-Cm,Cm,8,MHCII chromosome 14
+STG260-Lk-A,Lk,7,MHCII chromosome 14
+STG261-Cm,Cm,6,MHCII chromosome 14
+STG262-Cm,Cm,5,MHCII chromosome 14
+STG263-Cm,Cm,4,MHCII chromosome 14
+STG264-Cm,Cm,5,MHCII chromosome 14
+STG265-Cm,Cm,5,MHCII chromosome 14
+STG266-Cm,Cm,5,MHCII chromosome 14
+STG267-Cm,Cm,6,MHCII chromosome 14
+STG268-Lk-A,Lk,5,MHCII chromosome 14
+STG270-Cm,Cm,7,MHCII chromosome 14
+STG271-Cm,Cm,4,MHCII chromosome 14
+STG272-Cm,Cm,6,MHCII chromosome 14
+STG273-Cm,Cm,2,MHCII chromosome 14
+STG274-Cm,Cm,5,MHCII chromosome 14
+STG275-Cm,Cm,5,MHCII chromosome 14
+STG276-Cm,Cm,6,MHCII chromosome 14
+STG277-Cm,Cm,5,MHCII chromosome 14
+STG278-Lk-A,Lk,4,MHCII chromosome 14
+STG279-Cm,Cm,6,MHCII chromosome 14
+STG281-Cm,Cm,7,MHCII chromosome 14
+STG282-Cm,Cm,3,MHCII chromosome 14
+STG283-Cm,Cm,9,MHCII chromosome 14
+STG284-Cm,Cm,7,MHCII chromosome 14
+STG285-Cm,Cm,5,MHCII chromosome 14
+STG286-Cm,Cm,9,MHCII chromosome 14
+STG287-Cm,Cm,6,MHCII chromosome 14
+STG289-Cm,Cm,5,MHCII chromosome 14
+STG290-Lk-A,Lk,9,MHCII chromosome 14
+STG291-Cm,Cm,6,MHCII chromosome 14
+STG292-Cm,Cm,6,MHCII chromosome 14
+STG293-Cm,Cm,7,MHCII chromosome 14
+STG294-Cm,Cm,7,MHCII chromosome 14
+STG295-Cm,Cm,8,MHCII chromosome 14
+STG296-Cm,Cm,8,MHCII chromosome 14
+STG297-Cm,Cm,8,MHCII chromosome 14
+STG298-Cm,Cm,3,MHCII chromosome 14
+STG299-Cm,Cm,8,MHCII chromosome 14
+Trident-Cm,Cm,3,MHCII chromosome 14
+W1144-Cm,Cm,6,MHCII chromosome 14
+X8084-Cm,Cm,7,MHCII chromosome 14
+4C12794E78_Cc_Apr2021,Cc,2,MHCII chromosome 1
+8Lk-WP45_Aug2023,Lk,1,MHCII chromosome 1
+10Lk-WP56_Aug2023,Lk,1,MHCII chromosome 1
+18Lk-WP18_Aug2023,Lk,1,MHCII chromosome 1
+18Lk-523_Aug2023,Lk,1,MHCII chromosome 1
+21Lk-WP50_Aug2023,Lk,1,MHCII chromosome 1
+22Lk-WP57_Aug2023,Lk,1,MHCII chromosome 1
+2016_Lk6_Aug2023,Lk,1,MHCII chromosome 1
+5290_Cm_Apr2021,Cm,2,MHCII chromosome 1
+5404_Cm_fall2019,Cm,1,MHCII chromosome 1
+5420_Cm_Apr2021,Cm,2,MHCII chromosome 1
+5624_Cm_fall2019,Cm,1,MHCII chromosome 1
+5630_Cm_fall2019,Cm,2,MHCII chromosome 1
+5648_Cm_Apr2021,Cm,1,MHCII chromosome 1
+5733_Cm_Apr2021,Cm,1,MHCII chromosome 1
+5735_Cm_fall2019,Cm,1,MHCII chromosome 1
+5737_Cm_Apr2021,Cm,2,MHCII chromosome 1
+5918_Cm_Apr2021,Cm,1,MHCII chromosome 1
+5927_Cm_Apr2021,Cm,2,MHCII chromosome 1
+5967_Cm_Apr2021,Cm,1,MHCII chromosome 1
+5972_Cm_Apr2021,Cm,2,MHCII chromosome 1
+5973_Cm_Apr2021,Cm,1,MHCII chromosome 1
+5974_Cm_Apr2021,Cm,2,MHCII chromosome 1
+6673_Cm_fall2019,Cm,1,MHCII chromosome 1
+6674_Cm_Apr2021,Cm,1,MHCII chromosome 1
+6859_Cm_Apr2021,Cm,2,MHCII chromosome 1
+6975_Cm_Apr2021,Cm,1,MHCII chromosome 1
+6976_Cm_Apr2021,Cm,2,MHCII chromosome 1
+6977_Cm_Apr2021,Cm,2,MHCII chromosome 1
+7020_Cm_Apr2021,Cm,1,MHCII chromosome 1
+7021_Cm_Apr2021,Cm,2,MHCII chromosome 1
+7022_Cm_Apr2021,Cm,1,MHCII chromosome 1
+7024_Cm_Apr2021,Cm,1,MHCII chromosome 1
+7027_Cm_Apr2021,Cm,1,MHCII chromosome 1
+7949_Cm_fall2019,Cm,2,MHCII chromosome 1
+8084_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8346_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8347_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8348_Cm_Apr2021,Cm,1,MHCII chromosome 1
+8349_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8351_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8354_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8413_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8414_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8415_Cm_Apr2021,Cm,2,MHCII chromosome 1
+8417_Cm_Apr2021,Cm,1,MHCII chromosome 1
+8442_Cm_Apr2021,Cm,1,MHCII chromosome 1
+8464_Cm_Apr2021,Cm,2,MHCII chromosome 1
+9972_73_Cc_fall2019,Cc,2,MHCII chromosome 1
+12029_Cm_fall2019,Cm,1,MHCII chromosome 1
+12392_Cm_fall2019,Cm,2,MHCII chromosome 1
+12483_Cm_Apr2021,Cm,1,MHCII chromosome 1
+12495_Cm_Apr2021,Cm,2,MHCII chromosome 1
+12549_Cm_Apr2021,Cm,1,MHCII chromosome 1
+12555_Cm_Apr2021,Cm,1,MHCII chromosome 1
+12556_Cm_fall2019,Cm,1,MHCII chromosome 1
+12633_Cm_Apr2021,Cm,2,MHCII chromosome 1
+12634_Cm_fall2019,Cm,2,MHCII chromosome 1
+12635_Cm_fall2019,Cm,2,MHCII chromosome 1
+12637_Cm_Apr2021,Cm,1,MHCII chromosome 1
+12639_Cm_Apr2021,Cm,1,MHCII chromosome 1
+12640_Cm_Apr2021,Cm,2,MHCII chromosome 1
+12650_Cm_Apr2021,Cm,2,MHCII chromosome 1
+12651_Cm_fall2019,Cm,1,MHCII chromosome 1
+12654-B_Cm_Apr2021,Cm,2,MHCII chromosome 1
+12656_Cm_Apr2021,Cm,1,MHCII chromosome 1
+12657_Cm_Apr2021,Cm,1,MHCII chromosome 1
+12658_Cm_fall2019,Cm,2,MHCII chromosome 1
+12715-B_Cm_Aug2023,Cm,2,MHCII chromosome 1
+12951_Cm_fall2019,Cm,1,MHCII chromosome 1
+13411_Cm_Apr2021,Cm,2,MHCII chromosome 1
+13412_Cm_fall2019,Cm,1,MHCII chromosome 1
+14322_Cm_fall2019,Cm,2,MHCII chromosome 1
+14727_Cm_Apr2021,Cm,1,MHCII chromosome 1
+14737_Cm_Apr2021,Cm,2,MHCII chromosome 1
+14747_Cm_fall2019,Cm,1,MHCII chromosome 1
+14751_Cm_fall2019,Cm,2,MHCII chromosome 1
+14753_Cm_fall2019,Cm,2,MHCII chromosome 1
+14863-B_Cm_Aug2023,Cm,2,MHCII chromosome 1
+14869_Cm_fall2019,Cm,2,MHCII chromosome 1
+14917_Cm_fall2019,Cm,2,MHCII chromosome 1
+14985-B_Cm_Aug2023,Cm,1,MHCII chromosome 1
+15030_Cc_fall2019,Cc,1,MHCII chromosome 1
+15032-B_Cm_Aug2023,Cm,1,MHCII chromosome 1
+15033_Cm_fall2019,Cm,2,MHCII chromosome 1
+15036_Cm_fall2019,Cm,1,MHCII chromosome 1
+15037_Cc_fall2019,Cc,1,MHCII chromosome 1
+15042_Cm_fall2019,Cm,1,MHCII chromosome 1
+15045_Cm_fall2019,Cm,1,MHCII chromosome 1
+15046_Cm_fall2019,Cm,2,MHCII chromosome 1
+15080_Cc_fall2019,Cc,1,MHCII chromosome 1
+15222_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+15232_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+16426_Cc_fall2019,Cc,1,MHCII chromosome 1
+16427_Cc_fall2019,Cc,2,MHCII chromosome 1
+16429_Cc_fall2019,Cc,1,MHCII chromosome 1
+16439_Cm_Apr2021,Cm,1,MHCII chromosome 1
+16441_Cc_Apr2021,Cc,1,MHCII chromosome 1
+16443_Cc_fall2019,Cc,1,MHCII chromosome 1
+16446_Cm_fall2019,Cm,2,MHCII chromosome 1
+17503_Cc_Apr2021,Cc,2,MHCII chromosome 1
+18232_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18256_Cc_fall2019,Cc,2,MHCII chromosome 1
+18605_Cc_Apr2021,Cc,2,MHCII chromosome 1
+18606_Cc_Apr2021,Cc,2,MHCII chromosome 1
+18607_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18612_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18613_Cc_Apr2021,Cc,2,MHCII chromosome 1
+18617_Cc_fall2019,Cc,1,MHCII chromosome 1
+18626_Cc_fall2019,Cc,1,MHCII chromosome 1
+18638_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18639_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18645_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18654_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+18680_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18688_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18689_Cc_Apr2021,Cc,2,MHCII chromosome 1
+18697_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18700_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18702_Cc_Apr2021,Cc,1,MHCII chromosome 1
+18703_Cc_Apr2021,Cc,2,MHCII chromosome 1
+18706_Cc_fall2019,Cc,2,MHCII chromosome 1
+18884_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+19642_Cc_fall2019,Cc,2,MHCII chromosome 1
+19919_Dc-A_Aug2023,Dc,1,MHCII chromosome 1
+19926_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+19929_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+19965_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+19973_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+21411_Cm_Apr2021,Cm,1,MHCII chromosome 1
+21413_Cm_Apr2021,Cm,1,MHCII chromosome 1
+21414_Cm_fall2019,Cm,1,MHCII chromosome 1
+21417_Cm_Apr2021,Cm,1,MHCII chromosome 1
+21419_Cm_Apr2021,Cm,2,MHCII chromosome 1
+21420-B_Cm_Aug2023,Cm,1,MHCII chromosome 1
+21421_Cm_fall2019,Cm,1,MHCII chromosome 1
+21422_Cm_fall2019,Cm,1,MHCII chromosome 1
+21423_Cm_Apr2021,Cm,1,MHCII chromosome 1
+21438_Cm_fall2019,Cm,2,MHCII chromosome 1
+21536_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+21559_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+21970_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23064_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23065_Dc-A_Aug2023,Dc,1,MHCII chromosome 1
+23081_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23089_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23093_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23095_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23101_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23102_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23112_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23118_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23128_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+23131_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+27928_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+28012_Dc-A_Aug2023,Dc,1,MHCII chromosome 1
+28022_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+28107_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+29555_Dc-B_Aug2023,Dc,2,MHCII chromosome 1
+29756_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+29798_Dc-A_Aug2023,Dc,1,MHCII chromosome 1
+31764_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+32668_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+34061_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+51124_Cc_fall2019,Cc,2,MHCII chromosome 1
+51127_Cc_fall2019,Cc,1,MHCII chromosome 1
+51128_Cc_fall2019,Cc,1,MHCII chromosome 1
+51145_Cm_Apr2021,Cm,2,MHCII chromosome 1
+51149_Cm_fall2019,Cm,1,MHCII chromosome 1
+51156_Cm_Apr2021,Cm,1,MHCII chromosome 1
+51166_Cc_fall2019,Cc,1,MHCII chromosome 1
+51175_Cc_Apr2021,Cc,1,MHCII chromosome 1
+51180_Cc_Apr2021,Cc,2,MHCII chromosome 1
+51181_Cc_fall2019,Cc,1,MHCII chromosome 1
+51190_Cc_fall2019,Cc,1,MHCII chromosome 1
+51191_Cm_Apr2021,Cm,1,MHCII chromosome 1
+51195_Cc_fall2019,Cc,2,MHCII chromosome 1
+51198_Cc_fall2019,Cc,1,MHCII chromosome 1
+51199_Cc_fall2019,Cc,2,MHCII chromosome 1
+51201_Cc_fall2019,Cc,2,MHCII chromosome 1
+51202_Cc_Apr2021,Cc,1,MHCII chromosome 1
+51203-B_Cc_Aug2023,Cc,1,MHCII chromosome 1
+51204_Cc_Apr2021,Cc,2,MHCII chromosome 1
+51208_Cc_fall2019,Cc,1,MHCII chromosome 1
+51213_Cm_Apr2021,Cm,2,MHCII chromosome 1
+51214_Cm_Apr2021,Cm,2,MHCII chromosome 1
+51217_Cm_Apr2021,Cm,2,MHCII chromosome 1
+51218_Cm_Apr2021,Cm,2,MHCII chromosome 1
+51219_Cc_fall2019,Cc,1,MHCII chromosome 1
+51220_Cc_fall2019,Cc,2,MHCII chromosome 1
+51279_Cc_Apr2021,Cc,2,MHCII chromosome 1
+51284_Cc_fall2019,Cc,2,MHCII chromosome 1
+51295_Cc_fall2019,Cc,2,MHCII chromosome 1
+51297_Cc_Apr2021,Cc,1,MHCII chromosome 1
+51303_Cc_Apr2021,Cc,1,MHCII chromosome 1
+51305_Cc_Apr2021,Cc,1,MHCII chromosome 1
+51306_Cc_Apr2021,Cc,1,MHCII chromosome 1
+51311_Cc_fall2019,Cc,2,MHCII chromosome 1
+51314_Cc_fall2019,Cc,1,MHCII chromosome 1
+51389_Cc_Apr2021,Cc,2,MHCII chromosome 1
+51449_Cc_fall2019,Cc,1,MHCII chromosome 1
+51450_Cc_fall2019,Cc,1,MHCII chromosome 1
+51451_Cc_fall2019,Cc,1,MHCII chromosome 1
+51452_Cc_fall2019,Cc,1,MHCII chromosome 1
+51455_Cc_fall2019,Cc,2,MHCII chromosome 1
+51462_Cc_fall2019,Cc,1,MHCII chromosome 1
+51463_Cc_fall2019,Cc,2,MHCII chromosome 1
+52008_Cm_Apr2021,Cm,2,MHCII chromosome 1
+52016_Cm_Apr2021,Cm,1,MHCII chromosome 1
+52018_Cm_Apr2021,Cm,2,MHCII chromosome 1
+52071_Cm_Apr2021,Cm,2,MHCII chromosome 1
+52562_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+52599_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+53241_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+53310_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+53618_Dc-A_Aug2023,Dc,1,MHCII chromosome 1
+53642_Dc-A_Aug2023,Dc,1,MHCII chromosome 1
+53657_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+53738_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+53739_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+54733_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+54976_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+55025_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+55862_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+55933_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+55957_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+56578_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+56609_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+56707_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+56726_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+57514_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+57825_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+57864_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+58552_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+58558_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+58649_Dc-B_Aug2023,Dc,1,MHCII chromosome 1
+147163_Lk-B_Aug2023,Lk,1,MHCII chromosome 1
+181508_Lk-B_Aug2023,Lk,1,MHCII chromosome 1
+210556_Lk-B_Aug2023,Lk,1,MHCII chromosome 1
+210561_Lk-B_Aug2023,Lk,1,MHCII chromosome 1
+214590_Lk-B_Aug2023,Lk,1,MHCII chromosome 1
+BP7052_Cm_Apr2021,Cm,1,MHCII chromosome 1
+BP8275B_Cm_Apr2021,Cm,2,MHCII chromosome 1
+EEC992_Cm_Apr2021,Cm,2,MHCII chromosome 1
+EEF822_Cc_Apr2021,Cc,2,MHCII chromosome 1
+EEF830_Cc_Apr2021,Cc,2,MHCII chromosome 1
+EEF924_Cc_Apr2021,Cc,1,MHCII chromosome 1
+EEF945_Cc_Apr2021,Cc,1,MHCII chromosome 1
+EEF959_Cc_Apr2021,Cc,2,MHCII chromosome 1
+EEF969-CC_Apr2021,Cc,1,MHCII chromosome 1
+EEF976_Cc_Apr2021,Cc,1,MHCII chromosome 1
+HB0443_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HB0720_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HB4709_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HB4711_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HB4734_33_Cc_fall2019,Cc,2,MHCII chromosome 1
+HB4741_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HB4759_Cc_Apr2021,Cc,1,MHCII chromosome 1
+HB4773_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HB4775_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HB4785_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HB4789_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HB4797_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HB7555_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HB7593_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HH0011_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HH0013_Cc_Apr2021,Cc,1,MHCII chromosome 1
+HH0019_Cc_Apr2021,Cc,1,MHCII chromosome 1
+HH0023_Cc_Apr2021,Cc,1,MHCII chromosome 1
+HH0025_Cc_Apr2021,Cc,1,MHCII chromosome 1
+HH0029_Cc_Apr2021,Cc,2,MHCII chromosome 1
+HH0038_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HH0051_Cc_Apr2021,Cc,2,MHCII chromosome 1
+HH0069_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HH0076_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HH0088_89_Cc_fall2019,Cc,1,MHCII chromosome 1
+HH0334_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HH0391_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HH0413_Cc_Apr2021,Cc,1,MHCII chromosome 1
+HH0420_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HH0430_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HH0470_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HH1167_68_Cm_fall2019,Cm,2,MHCII chromosome 1
+HH2358_Cm_Apr2021,Cm,2,MHCII chromosome 1
+HH2368_Cm_Apr2021,Cm,1,MHCII chromosome 1
+HH4810_Cm_fall2019,Cm,1,MHCII chromosome 1
+HH4811_12_Cm_fall2019,Cm,1,MHCII chromosome 1
+HH4818_19_Cm_fall2019,Cm,2,MHCII chromosome 1
+HH4837_38_Cc_fall2019,Cc,1,MHCII chromosome 1
+HH4839_40_Cc_fall2019,Cc,1,MHCII chromosome 1
+HH4852_51_Cm_fall2019,Cm,1,MHCII chromosome 1
+Lk-WP50_Aug2023,Lk,1,MHCII chromosome 1
+STG099_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG109_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG167_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG169_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG170_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG174_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG176_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG177_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG179_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG180_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG186_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG209_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG211_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG221_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG225_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG227_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG229_Lk-A_Aug2023,Lk,2,MHCII chromosome 1
+STG246_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG254_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG260_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG268_Lk-A_Aug2023,Lk,2,MHCII chromosome 1
+STG278_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+STG290_Lk-A_Aug2023,Lk,1,MHCII chromosome 1
+Trident_Cm_fall2019,Cm,1,MHCII chromosome 1
+W1144_Cm_Apr2021,Cm,1,MHCII chromosome 1

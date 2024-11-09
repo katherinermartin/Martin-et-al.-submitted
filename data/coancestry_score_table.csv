@@ -1,0 +1,13 @@
+﻿species_pair,proportion_identical_codons,median_CE,median_CA,locus,phylo_dist_beast_distnode
+Caretta caretta-Chelonia mydas,0.877191084,0.454952,0.8540359,MHCI,123.8042
+Caretta caretta-Lepidochelys kempii,0.915257163,0.4837763,0.8120469,MHCI,44.46085
+Chelonia mydas-Lepidochelys kempii,0.904807878,0.4698462,0.859368,MHCI,131.7011
+Caretta caretta-Dermochelys coriacea,0.935176358,0.2797903,0.8098189,MHCI,164.1327
+Chelonia mydas-Dermochelys coriacea,0.97809656,0.2671603,0.8654944,MHCI,160.8323
+Dermochelys coriacea-Lepidochelys kempii,0.9732665,0.267335,0.8638262,MHCI,172.0296
+Caretta caretta-Chelonia mydas,0.955015946,0.7369104,0.9374923,MHCII poly,123.8042
+Caretta caretta-Lepidochelys kempii,0.922662065,0.7231151,0.9453133,MHCII poly,44.46085
+Chelonia mydas-Lepidochelys kempii,0.91679621,0.7143263,0.9268636,MHCII poly,131.7011
+Caretta caretta-Dermochelys coriacea,0.884187082,0.7331849,0.963196,MHCII poly,164.1327
+Chelonia mydas-Dermochelys coriacea,0.907123941,0.7518008,0.9317532,MHCII poly,160.8323
+Dermochelys coriacea-Lepidochelys kempii,0.888152205,0.7160565,0.9489767,MHCII poly,172.0296

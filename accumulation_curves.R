@@ -41,7 +41,7 @@ as.ggplot(~rarecurve(df_MHCI,
 ggsave("MHCI_rarefaction_28Dec23.svg")
 
 ## MHCII monomorphic
-df_MHCII_mono <- read.csv("monomorphic_MHCII_allele_counts_for_rarefaction.csv")
+df_MHCII_mono <- read.csv("chr1_MHCII_allele_counts_for_rarefaction.csv")
 
 df_MHCII_mono <- df_MHCII_mono %>% remove_rownames %>% column_to_rownames(var="allele")
 
@@ -70,7 +70,7 @@ as.ggplot(~rarecurve(df_MHCII_mono,
 ggsave("MHCII_mono_rarefaction_28Dec23.svg")
 
 ## MHCII polymorphic
-df_MHCII_poly <- read.csv("polymorphic_MHCII_allele_counts_for_rarefaction.csv")
+df_MHCII_poly <- read.csv("chr14_MHCII_allele_counts_for_rarefaction.csv")
 
 df_MHCII_poly <- df_MHCII_poly %>% remove_rownames %>% column_to_rownames(var="allele")
 

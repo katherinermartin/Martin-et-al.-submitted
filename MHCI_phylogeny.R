@@ -34,7 +34,7 @@ species_alleles_list <- df %>%
 
 
 # read in trree
-tree <- read.mrbayes("../MrBayes/CIPRES_invariantgamma/infile.nex.con.tre")
+tree <- read.mrbayes("../MrBayes/CIPRES_invariantgamma/MHCI_infile.nex.con.tre")
 
 tree # this has 164 tips.
 

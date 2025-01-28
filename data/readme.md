@@ -1,6 +1,6 @@
 # Data for Martin et al
 
-Please refer to [name].xlsx for full list and description of data files, analysis files, and R scripts. [name].xlsx can be organized by either MHC locus (more information below) or by analysis type.
+Please refer to [name].xlsx for full list and description of data files, analysis files, and R scripts that are available in this repository. [name].xlsx can be organized by either MHC locus (more information below) or by analysis type.
 
 The files listed in [name].xlsx are organized by locus in a few different ways:
 

@@ -1,7 +1,7 @@
 ## Martin-et-al.-submitted
 Submitted to Molecular Biology and Evolution February 2025
 
-#### Data for Martin et al, located in this repository at [katherinermartin/Martin-et-al.-submitted/data](https://github.com/katherinermartin/Martin-et-al.-submitted/tree/main/data) and all subdirectories therein, with the exception of the raw sequence read data (see below)
+Data for Martin et al, located in this repository at [katherinermartin/Martin-et-al.-submitted/data](https://github.com/katherinermartin/Martin-et-al.-submitted/tree/main/data) and all subdirectories therein, with the exception of the raw sequence read data (see below)
 
 * Please refer to [data_script_readme_Martin_et_al_MHC_species_evolution.xlsx](https://github.com/katherinermartin/Martin-et-al.-submitted/blob/main/data_script_readme_Martin_et_al_MHC_species_evolution.xlsx) for full list and description of data files, analysis files, and R scripts that are available in this repository.
 * [data_script_readme_Martin_et_al_MHC_species_evolution.xlsx](https://github.com/katherinermartin/Martin-et-al.-submitted/blob/main/data_script_readme_Martin_et_al_MHC_species_evolution.xlsx) can be organized by either MHC locus (more information below) or by analysis type.
@@ -14,7 +14,8 @@ Submitted to Molecular Biology and Evolution February 2025
   * MHCII chr 14 and chr 1: files that contain data from both MHCII loci and are analyzed together
   * MHCI, MHCII chr 14, MHCII chr 1: files that contain data from all three MHC loci from this study and analyzed together or used as input to the same script or analysis
   
-#### This repository is organized in the following way:
+This repository is organized in the following way:
+
 * [Scripts located here](https://github.com/katherinermartin/Martin-et-al.-submitted/tree/main)
 * Data are in a few subdirectories:
 
@@ -24,4 +25,5 @@ Submitted to Molecular Biology and Evolution February 2025
   * [katherinermartin/Martin-et-al.-submitted/MHCII_chr14](https://github.com/katherinermartin/Martin-et-al.-submitted/tree/main/data/MHCII_chr14): MHCII chr 14-specific files
   * [katherinermartin/Martin-et-al.-submitted/MHCII_combined](https://github.com/katherinermartin/Martin-et-al.-submitted/tree/main/data/MHCII_combined): files pertaining to both MHCII chr 14 and chr 1
 
-#### Raw sequence read data is available at the NCBI Sequence Read Archive under BioProject PRJNA1219623 and also available upon request in the event that the BioProject archive is no longer available.
+
+Raw sequence read data are available at the NCBI Sequence Read Archive under BioProject PRJNA1219623 and also available upon request in the event that the BioProject archive is no longer available.

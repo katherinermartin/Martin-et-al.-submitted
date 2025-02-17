@@ -1,12 +1,12 @@
 ## Martin-et-al.-submitted
 Submitted to Molecular Biology and Evolution February 2025
 
-#### Data for Martin et al, located in this repository at katherinermartin/Martin-et-al.-submitted/data and all subdirectories therein, with the exception of the raw sequence read data
+#### Data for Martin et al, located in this repository at katherinermartin/Martin-et-al.-submitted/data and all subdirectories therein, with the exception of the raw sequence read data (see below)
 
-* Please refer to `data_script_readme_Martin_et_al_MHC_species_evolution.xlsx` for full list and description of data files, analysis files, and R scripts that are available in this repository.
-* `data_script_readme_Martin_et_al_MHC_species_evolution.xlsx` can be organized by either MHC locus (more information below) or by analysis type.
+* Please refer to [data_script_readme_Martin_et_al_MHC_species_evolution.xlsx](https://github.com/katherinermartin/Martin-et-al.-submitted/blob/main/data_script_readme_Martin_et_al_MHC_species_evolution.xlsx) for full list and description of data files, analysis files, and R scripts that are available in this repository.
+* [data_script_readme_Martin_et_al_MHC_species_evolution.xlsx](https://github.com/katherinermartin/Martin-et-al.-submitted/blob/main/data_script_readme_Martin_et_al_MHC_species_evolution.xlsx) can be organized by either MHC locus (more information below) or by analysis type.
 
-* The files listed in `data_script_readme_Martin_et_al_MHC_species_evolution.xlsx` are organized by locus in a few different ways:
+* The files listed in [data_script_readme_Martin_et_al_MHC_species_evolution.xlsx](https://github.com/katherinermartin/Martin-et-al.-submitted/blob/main/data_script_readme_Martin_et_al_MHC_species_evolution.xlsx) are organized by locus in a few different ways:
 
   * MHCI: just files pertaining to MHCI
   * MHCII chr 14: just files pertaining to MHCII chr 14

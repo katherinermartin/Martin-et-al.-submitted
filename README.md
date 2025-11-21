@@ -1,5 +1,5 @@
 ## Martin-et-al.-submitted
-Submitted to Molecular Biology and Evolution February 2025
+Submitted to Genome Biology and Evolution March 2025
 
 Data for Martin et al, located in this repository at [katherinermartin/Martin-et-al.-submitted/data](https://github.com/katherinermartin/Martin-et-al.-submitted/tree/main/data) and all subdirectories therein, with the exception of the raw sequence read data (see below)
 

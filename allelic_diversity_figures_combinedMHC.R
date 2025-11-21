@@ -6,11 +6,13 @@ library(ggpubr) # for faceting and annotating graphs
 library(ggbeeswarm) # for the jitter/dot plots
 
 allelic_summary_stats <- read.csv("combined_MHCI_MHCII_allelic_div_stats_v4.csv")
+
 head(allelic_summary_stats)
 allelic_summary_stats$species <- as.factor(allelic_summary_stats$species)
 
 # set factor level for species; necessary to
 species_factor_levels <- c("Dc", "Lk", "Cc", "Cm")
+
 
 alleles_controlled_for_sample <- ggplot(data = allelic_summary_stats,
                         aes(x = type,
@@ -20,12 +22,13 @@ alleles_controlled_for_sample <- ggplot(data = allelic_summary_stats,
            stat = "identity") +
   theme_classic() +
   xlab("") +
-  ylab("total alleles sampled / total individuals sampled") +
+  ylab("total alleles recovered / total individuals sampled") +
   theme(legend.position = "none",
-        plot.title = element_text(size=18),
-        axis.text.x = element_blank(),
+        plot.title = element_text(size = 75), # the "C"
+        axis.text.y = element_text(size = 50), # y axis numbers text size
+        axis.text.x = element_blank(), # no x-axis sub text
         axis.ticks.x = element_blank(),
-        text = element_text(size=14)) +
+        text = element_text(size = 75)) + # axis text label
   scale_fill_manual(values = c("#ad95cf", # Dc
                                "#95b7cf", # Lk
                                "#ff981a", # Cc
@@ -51,9 +54,11 @@ nucleotide_div <- ggplot(data = allelic_summary_stats,
                                "#4ca64c")) + # Cm
   labs(title = "E") +
   theme(legend.position = "none",
-        plot.title = element_text(size=18),
+        plot.title = element_text(size = 75),
+        axis.text.y = element_text(size = 50), # y axis numbers text size
+        axis.text.x = element_text(size = 50), # x axis text size
         axis.ticks.x = element_blank(),
-        text = element_text(size = 14)) +
+        text = element_text(size = 75)) +
   geom_errorbar(aes(ymin = nucleotide_diversity - nuc_div_variance,
                     ymax= nucleotide_diversity + nuc_div_variance),
                 width=.2,
@@ -75,10 +80,11 @@ alleles_per_spp <- ggplot(data =
                                "#ff981a", # Cc
                                "#4ca64c")) + # Cm
   theme(legend.position = "none",
-        plot.title = element_text(size=18),
+        plot.title = element_text(size = 75),
+        axis.text.y = element_text(size = 50), # y axis numbers text size
         axis.text.x = element_blank(), # no x axis labels
         axis.ticks.x=element_blank(),
-        text = element_text(size=14)) +
+        text = element_text(size = 75)) +
   labs(title = "B") +
   scale_y_continuous(breaks=c(0, 25, 50, 100, 150, 200))
 alleles_per_spp
@@ -99,7 +105,7 @@ allele_count_swarm <- ggplot(data = allele_count,
                                shape = 21,
                                color = "azure",
                                alpha = 0.8,
-                               size = 3) +
+                               size = 10) +
   theme_classic() +
   xlab("") +
   ylab("alleles per individual") +
@@ -109,9 +115,11 @@ allele_count_swarm <- ggplot(data = allele_count,
                                "#4ca64c")) + # Cm
   labs(title = "D") +
   theme(legend.position = "none",
-        plot.title = element_text(size=18),
+        plot.title = element_text(size = 75),
+        axis.text.y = element_text(size = 50), # y axis numbers text size
+        axis.text.x = element_text(size = 50), # x axis text size
         axis.ticks.x=element_blank(),
-        text = element_text(size=14)) +
+        text = element_text(size = 75)) +
   scale_y_continuous(breaks=c(0, 1, 3, 5, 7, 9, 11))
 allele_count_swarm
 
@@ -124,4 +132,8 @@ allele_stats_figure <- ggpubr::ggarrange(alleles_per_spp,
                                          ncol = 2, nrow = 2)
 allele_stats_figure
 
-ggsave("facet_allele_stats_10Sept24.svg", dpi = 300)
+ggsave("figure1_BCDE.svg",
+       dpi = 300,
+       units = "cm",
+       height = 50,
+       width = 100)

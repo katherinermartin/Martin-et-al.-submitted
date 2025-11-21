@@ -6,8 +6,6 @@ library(pegas) # for nucleotide diversity calculation
 library(ggplot2)
 library(ggpubr)
 
-setwd("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/combined_9Sept24/allelic_diversity/")
-
 # read in sequence list
 all_seqs <- read.dna("MHCII_all_alleles.fasta", format = "fasta") # must be an alignment
 
@@ -25,7 +23,7 @@ mono_seqMat <- as.character(mono_seqs)
 dim(mono_seqMat) # 14 sequences, 269 bp
 
 # just those sequences that are chr 14
-poly_seqs <- read.dna("../../../MHCII_chr 1_chr 14_combined/allelic_diversity/chr14_alm_for_nucdiv.fasta", format = "fasta") # must be an alignment
+poly_seqs <- read.dna("chr14_alm_for_nucdiv.fasta", format = "fasta") # must be an alignment
 
 dim(poly_seqs)
 # convert sequence list from DNAbin object to matrix

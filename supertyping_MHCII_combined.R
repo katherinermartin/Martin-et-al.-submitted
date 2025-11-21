@@ -7,12 +7,9 @@ library(reshape2)
 library(scales)
 library(unikn)
 
-# set working directory
-setwd("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/combined_new_19Nov23/supertyping/combined/")
-
 # Data frame of amino acid residue values for 308 MHC alleles across 20 positively selected sites
 
-MHCII_matrix <- read.csv("MHCII_combined_supertyping_input.csv") # load in data matrix; electrochemical values for each amino acid in the full peptide binding region, based on 
+MHCII_matrix <- read.csv("MHCII_chr14_chr1_supertyping_input.csv") # load in data matrix; electrochemical values for each amino acid in the full peptide binding region, based on 
 MHCII_matrix <- MHCII_matrix[,-1] # remove first column (allele identifiers) so that it can be read into find.clusters (below)
 
 lapply(MHCII_matrix,class) # all columns are numeric, too.
@@ -49,7 +46,7 @@ p1 <- p1 + geom_boxplot()
 p1 <- p1 + theme_bw()
 p1 <- p1 + xlab("Number of groups (K)")
 p1 # shows how BIC changes with the number of groups (K) that's chosen
-ggsave("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/MHCII_combined_Kmeans_max25_03Jyl24.pdf")
+ggsave("MHCII_combined_Kmeans_max25_22Sept25.svg")
 
 ## There is no clear elbow point of minimizes BIC values, but 1-14 seems to encompass the majority of the change, so evaluate k = 2 through 5 to start
 
@@ -82,19 +79,24 @@ xval_2 <- xvalDapc(MHCII_matrix,
 # xval gives several metrics on which number of PCs is best but these metrics aren't always congruent with one another. We used the number of PCs associated with the lowest RMSE as the "optimum" number of PCAs in the DAPC analysis.
 
 
-xval_2[2:6] # 35 has lowest RMSE, some fluctuation
+xval_2[2:6] # 40 has lowest RMSE
 
-# 2_a: evaluate 35 as center of optimal distribution:
+# 2_a: evaluate 40 as center of optimal distribution:
 
 set.seed(1)
-xval_2_a <- xvalDapc(MHCII_matrix, grp = grp_2$grp, n.pca = 1:70, n.rep = 1000, parallel = "multicore", ncpus = 4L) # evaluate 1 to 70 PCAs, since 35 is the center.
+xval_2_a <- xvalDapc(MHCII_matrix,
+                     grp = grp_2$grp,
+                     n.pca = 35:45,
+                     n.rep = 1000, # number of replicates at each level of PC retention
+                     ncpus = 1)
 
+xval_2_a[2:6] # 42 is optimal number of PCAs at 2 clusters for correctly predicting subsamples with the lowest error
 
-xval_2_a[2:6] # 11 is optimal number of PCAs at 2 clusters for correctly predicting subsamples with the lowest error; some fluctuation
+# Result: 2 clusters, 42 PCs
 
-# Result: 2 clusters, 15 PCs
-
-dapc_2 <- dapc(MHCII_matrix, grp_2$grp, n.pca = 15) # retain 15 PCs automatically; retain 1 DFs
+dapc_2 <- dapc(MHCII_matrix,
+               grp_2$grp,
+               n.pca = 42) # retain 42 PCs automatically; retain 1 DFs
 
 # Visualize DAPC results
 
@@ -110,24 +112,24 @@ k2_scatter <- scatter(dapc_2, # data
                       leg = TRUE,
                       scree.da = TRUE,
                       col = pal2)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/k2_scatter_combined_03Jul24.svg")
+dev.copy(svg, file="MHCII_combined_k2_scatter_combined_22Sept25.svg")
 dev.off()
 
 # Compoplots shows us the alleles that have less than a certain probability of membership in a single cluster; i.e., those alleles that might belong to both. For supertyping, we want to reduce this down to having NO alleles that are like this, since we're trying to break them down into the least divisible unit.
 
 # Alleles with less than 100% probability of membership:
 temp90 <- which(apply(dapc_2$posterior,1, function(e) all(e<0.90))) # all those that have less than 90% probability of membership in a single cluster.
-temp90 # 0
+length(temp90) # 4
 
 temp95 <- which(apply(dapc_2$posterior,1, function(e) all(e<0.95))) # all those that have less than x% probability of membership in a single cluster.
-temp95 # 0
+length(temp95) # 6
 
 temp99 <- which(apply(dapc_2$posterior,1, function(e) all(e<0.99))) # all those that have less than x% probability of membership in a single cluster.
-temp99 # 2
+length(temp99) # 8
 
 # Visualize:
 compo2 <- compoplot(dapc_2, col = pal2)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/compo2_combined.svg")
+dev.copy(svg, file="MHCII_combined_compo2_combined_22Sept25.svg")
 dev.off()
 
 
@@ -153,18 +155,24 @@ xval_3 <- xvalDapc(MHCII_matrix,
 
 # xval gives several metrics on which number of PCs is best but these metrics aren't always congruent with one another. We used the number of PCs associated with the lowest RMSE as the "optimum" number of PCAs in the DAPC analysis.
 
-xval_3[2:6] # 20
+xval_3[2:6] # 5
 
-# 3_a: evaluate 20 as center of optimal distribution:
+# 3_a: evaluate 5 as center of optimal distribution:
 
 set.seed(1)
-xval_3_a <- xvalDapc(MHCII_matrix, grp = grp_3$grp, n.pca = 1:40, n.rep = 1000, parallel = "multicore", ncpus = 4L) # evaluate 1 to 40 PCAs, since 20 is the center.
+xval_3_a <- xvalDapc(MHCII_matrix,
+                     grp = grp_3$grp,
+                     n.pca = 1:10,
+                     n.rep = 1000, # number of replicates at each level of PC retention
+                     ncpus = 1)
 
-xval_3_a[2:6] # 20 is optimal number of PCAs at 3 clusters for correctly predicting subsamples with the lowest error, some fluctuation
+xval_3_a[2:6] # 5 is optimal number of PCAs at 3 clusters for correctly predicting subsamples with the lowest error, some fluctuation
 
-# Result: 3 clusters, 20 PCs
+# Result: 3 clusters, 5 PCs
 
-dapc_3 <- dapc(MHCII_matrix, grp_3$grp, n.pca = 20) # retain 20 PCs automatically; retain 2 DFs
+dapc_3 <- dapc(MHCII_matrix,
+               grp_3$grp,
+               n.pca = 5) # retain 5 PCs automatically; retain 2 DFs
 
 # Visualize DAPC results
 
@@ -180,25 +188,26 @@ k3_scatter <- scatter(dapc_3, # data
                       leg = TRUE,
                       scree.da = TRUE,
                       scree.pca = TRUE,
+                      posi.pca = "topleft",
                       col = pal3)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/k3_scatter_combined_03Jul24.svg")
+dev.copy(svg, file="MHCII_combined_k3_scatter_combined_22Sept25.svg")
 dev.off()
 
 # Compoplots shows us the alleles that have less than a certain probability of membership in a single cluster; i.e., those alleles that might belong to both. For supertyping, we want to reduce this down to having NO alleles that are like this, since we're trying to break them down into the least divisible unit.
 
 # Alleles with less than 100% probability of membership:
 temp90 <- which(apply(dapc_3$posterior,1, function(e) all(e<0.90))) # all those that have less than 90% probability of membership in a single cluster.
-temp90 # none
+length(temp90) # 3
 
 temp95 <- which(apply(dapc_3$posterior,1, function(e) all(e<0.95))) # all those that have less than 95% probability of membership in a single cluster.
-temp95 # none
+length(temp95) # 3
 
 temp99 <- which(apply(dapc_3$posterior,1, function(e) all(e<0.99))) # all those that have less than 99% probability of membership in a single cluster.
-temp99 # 1
+length(temp99) # 3
 
 # Visualize:
 compo3 <- compoplot(dapc_3, col = pal3)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/compo3_combined.svg")
+dev.copy(svg, file="MHCII_combined_compo3_22Sept25.svg")
 dev.off()
 
 ##################################################
@@ -223,18 +232,24 @@ xval_4 <- xvalDapc(MHCII_matrix,
 # xval gives several metrics on which number of PCs is best but these metrics aren't always congruent with one another. We used the number of PCs associated with the lowest RMSE as the "optimum" number of PCAs in the DAPC analysis.
 
 
-xval_4[2:6] # 15
+xval_4[2:6] # 5
 
-# 4_a: evaluate 15 as center of optimal distribution:
+# 4_a: evaluate 5 as center of optimal distribution:
 
 set.seed(1)
-xval_4_a <- xvalDapc(MHCII_matrix, grp = grp_4$grp, n.pca = 1:30, n.rep = 1000, parallel = "multicore", ncpus = 4L) # evaluate 1 to 530 PCAs, since 15 is the center.
+xval_4_a <- xvalDapc(MHCII_matrix,
+                     grp = grp_4$grp,
+                     n.pca = 1:10,
+                     n.rep = 1000, # number of replicates at each level of PC retention
+                     ncpus = 1)
 
-xval_4_a[2:6] # 27 is optimal number of PCAs at 4 clusters for correctly predicting subsamples with the lowest error.
+xval_4_a[2:6] # 4 is optimal number of PCAs at 4 clusters for correctly predicting subsamples with the lowest error.
 
-# Result: 4 clusters, 27 PCs
+# Result: 4 clusters,  PCs
 
-dapc_4 <- dapc(MHCII_matrix, grp_4$grp, n.pca = 27) # retain 27 PCs automatically; retain 3 DFs
+dapc_4 <- dapc(MHCII_matrix,
+               grp_4$grp,
+               n.pca = 4) # retain 4 PCs automatically; retain 3 DFs
 
 # Visualize DAPC results
 
@@ -250,28 +265,28 @@ k4_scatter <- scatter(dapc_4, # data
                       leg = TRUE,
                       scree.da = TRUE,
                       scree.pca = TRUE,
-                      posi.pca = "topright",
+                      posi.pca = "bottomleft",
                       posi.da = "topleft",
                       posi.leg = "bottomright",
                       col = pal4)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/k4_scatter_combined_03July24.svg")
+dev.copy(svg, file="MHCII_combined_k4_scatter_22Sept25.svg")
 dev.off()
 
 # Compoplots shows us the alleles that have less than a certain probability of membership in a single cluster; i.e., those alleles that might belong to both. For supertyping, we want to reduce this down to having NO alleles that are like this, since we're trying to break them down into the least divisible unit.
 
 # Alleles with less than 100% probability of membership:
 temp90 <- which(apply(dapc_4$posterior,1, function(e) all(e<0.90))) # all those that have less than 90% probability of membership in a single cluster.
-temp90 # 3
+length(temp90) # 14
 
 temp95 <- which(apply(dapc_4$posterior,1, function(e) all(e<0.95))) # all those that have less than x% probability of membership in a single cluster.
-temp95 # 5
+length(temp95) # 19
 
 temp99 <- which(apply(dapc_4$posterior,1, function(e) all(e<0.99))) # all those that have less than x% probability of membership in a single cluster.
-temp99 # 15
+length(temp99) # 38
 
 # Visualize:
 compo4 <- compoplot(dapc_4, col = pal4)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/compo4_combined_03July24.svg")
+dev.copy(svg, file="MHCII_combined_compo4_22Sept25.svg")
 dev.off()
 
 
@@ -297,18 +312,24 @@ xval_5 <- xvalDapc(MHCII_matrix,
 # xval gives several metrics on which number of PCs is best but these metrics aren't always congruent with one another. We used the number of PCs associated with the lowest RMSE as the "optimum" number of PCAs in the DAPC analysis.
 
 
-xval_5[2:6] # 20
+xval_5[2:6] # 10
 
-# 5_a: evaluate 20 as center of optimal distribution:
+# 5_a: evaluate 10 as center of optimal distribution:
 
 set.seed(1)
-xval_5_a <- xvalDapc(MHCII_matrix, grp = grp_5$grp, n.pca = 1:40, n.rep = 1000, parallel = "multicore", ncpus = 4L) # evaluate 1 to 40 PCAs, since 20 is the center.
+xval_5_a <- xvalDapc(MHCII_matrix,
+                     grp = grp_5$grp,
+                     n.pca = 5:15,
+                     n.rep = 1000, # number of replicates at each level of PC retention
+                     ncpus = 1)
 
-xval_5_a[2:6] # 19 is optimal number of PCAs at 5 clusters for correctly predicting subsamples with the lowest error, some fluctuation
+xval_5_a[2:6] # 8 is optimal number of PCAs at 5 clusters for correctly predicting subsamples with the lowest error, some fluctuation
 
-# Result: 5 clusters, 19 PCs
+# Result: 5 clusters, 8 PCs
 
-dapc_5 <- dapc(MHCII_matrix, grp_5$grp, n.pca = 19) # retain 19 PCs automatically; retain 4 DFs
+dapc_5 <- dapc(MHCII_matrix,
+               grp_5$grp,
+               n.pca = 8) # retain 8 PCs automatically; retain 4 DFs
 
 # Visualize DAPC results
 
@@ -328,24 +349,24 @@ k5_scatter <- scatter(dapc_5, # data
                       posi.da = "topright",
                       posi.leg = "bottomleft",
                       col = pal5)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/k5_scatter_combined_03July24.svg")
+dev.copy(svg, file="MHCII_combined_k5_scatter_22Sept25.svg")
 dev.off()
 
 # Compoplots shows us the alleles that have less than a certain probability of membership in a single cluster; i.e., those alleles that might belong to multiple clusters. For supertyping, we want to reduce this down to having NO alleles that are like this, since we're trying to break them down into the least divisible unit.
 
 # Alleles with less than 100% probability of membership:
 temp90 <- which(apply(dapc_5$posterior,1, function(e) all(e<0.90))) # all those that have less than 90% probability of membership in a single cluster.
-temp90 # 0
+length(temp90) # 13
 
 temp95 <- which(apply(dapc_5$posterior,1, function(e) all(e<0.95))) # all those that have less than x% probability of membership in a single cluster.
-temp95 # 2
+length(temp95) # 14
 
 temp99 <- which(apply(dapc_5$posterior,1, function(e) all(e<0.99))) # all those that have less than x% probability of membership in a single cluster.
-temp99 # 4
+length(temp99) # more than 28
 
 # Visualize:
 compo5 <- compoplot(dapc_5, col = pal5)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/compo5_combined_03July24.svg")
+dev.copy(svg, file="MHCII_combined_compo5_22Sept25.svg")
 dev.off()
 
 ##################################################
@@ -369,18 +390,24 @@ xval_6 <- xvalDapc(MHCII_matrix,
 
 # xval gives several metrics on which number of PCs is best but these metrics aren't always congruent with one another. We used the number of PCs associated with the lowest RMSE as the "optimum" number of PCAs in the DAPC analysis.
 
-xval_6[2:6] # 25
+xval_6[2:6] # 10
 
-# 6_a: evaluate 25 as center of optimal distribution:
+# 6_a: evaluate x as center of optimal distribution:
 
 set.seed(1)
-xval_6_a <- xvalDapc(MHCII_matrix, grp = grp_6$grp, n.pca = 1:50, n.rep = 1000, parallel = "multicore", ncpus = 4L) # evaluate 1 to 50 PCAs, since 25 is the center.
+xval_6_a <- xvalDapc(MHCII_matrix,
+                     grp = grp_6$grp,
+                     n.pca = 5:15,
+                     n.rep = 1000, # number of replicates at each level of PC retention
+                     ncpus = 1)
 
-xval_6_a[2:6] # 25 is optimal number of PCAs at 6 clusters for correctly predicting subsamples with the lowest error, some fluctuation
+xval_6_a[2:6] # 8 is optimal number of PCAs at 6 clusters for correctly predicting subsamples with the lowest error
 
-# Result: 6 clusters, 25 PCs
+# Result: 6 clusters, 8 PCs
 
-dapc_6 <- dapc(MHCII_matrix, grp_6$grp, n.pca = 25) # retain 25 PCs automatically; retain 5 DFs
+dapc_6 <- dapc(MHCII_matrix,
+               grp_6$grp,
+               n.pca = 8) # retain 8 PCs automatically; retain 5 DFs
 
 # Visualize DAPC results
 
@@ -398,24 +425,24 @@ k6_scatter <- scatter(dapc_6, # data
                       scree.pca = TRUE,
                       posi.pca = "bottomleft",
                       col = pal6)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/k6_scatter_poly_03July24.svg")
+dev.copy(svg, file="MHCII_combined_k6_scatter_22Sept25.svg")
 dev.off()
 
 # Compoplots shows us the alleles that have less than a certain probability of membership in a single cluster; i.e., those alleles that might belong to multiple clusters. For supertyping, we want to reduce this down to having NO alleles that are like this, since we're trying to break them down into the least divisible unit.
 
 # Alleles with less than 100% probability of membership:
 temp90 <- which(apply(dapc_6$posterior,1, function(e) all(e<0.90))) # all those that have less than 90% probability of membership in a single cluster.
-length(temp90) # 25
+length(temp90) # 7
 
 temp95 <- which(apply(dapc_6$posterior,1, function(e) all(e<0.95))) # all those that have less than x% probability of membership in a single cluster.
-length(temp95) # 42
+length(temp95) # 9
 
 temp99 <- which(apply(dapc_6$posterior,1, function(e) all(e<0.99))) # all those that have less than x% probability of membership in a single cluster.
-length(temp99) # 73
+length(temp99) # 18
 
 # Visualize:
 compo6 <- compoplot(dapc_6, col = pal6)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/compo6_combined_03July24.svg")
+dev.copy(svg, file="MHCII_combined_compo6_22Sept25.svg")
 dev.off()
 
 ##################################################
@@ -440,18 +467,24 @@ xval_7 <- xvalDapc(MHCII_matrix,
 # xval gives several metrics on which number of PCs is best but these metrics aren't always congruent with one another. We used the number of PCs associated with the lowest RMSE as the "optimum" number of PCAs in the DAPC analysis.
 
 
-xval_7[2:6] # 50
+xval_7[2:6] # 30
 
-# 7_a: evaluate x as center of optimal distribution:
+# 7_a: evaluate 30 as center of optimal distribution:
 
 set.seed(1)
-xval_7_a <- xvalDapc(MHCII_matrix, grp = grp_7$grp, n.pca = 1:100, n.rep = 1000, parallel = "multicore", ncpus = 4L) # evaluate 1 to 50 PCAs, since 100 is the center.
+xval_7_a <- xvalDapc(MHCII_matrix,
+                     grp = grp_7$grp,
+                     n.pca = 25:35,
+                     n.rep = 1000, # number of replicates at each level of PC retention
+                     ncpus = 1)
 
-xval_7_a[2:6] # 50 is optimal number of PCAs at 7 clusters for correctly predicting subsamples with the lowest error, some fluctuation
+xval_7_a[2:6] # x is optimal number of PCAs at 7 clusters for correctly predicting subsamples with the lowest error
 
-# Result: 7 clusters, 50 PCs
+# Result: 7 clusters, 31 PCs
 
-dapc_7 <- dapc(MHCII_matrix, grp_7$grp, n.pca = 50) # retain 50 PCs automatically; retain 6 DFs
+dapc_7 <- dapc(MHCII_matrix,
+               grp_7$grp,
+               n.pca = 31) # retain 31 PCs automatically; retain 6 DFs
 
 # Visualize DAPC results
 
@@ -469,24 +502,24 @@ k7_scatter <- scatter(dapc_7, # data
                       scree.pca = TRUE,
                       posi.pca = "bottomleft",
                       col = pal7)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/k7_scatter_combined_03July24.svg")
+dev.copy(svg, file="MHCII_combined_k7_scatter_22Sept25.svg")
 dev.off()
 
 # Compoplots shows us the alleles that have less than a certain probability of membership in a single cluster; i.e., those alleles that might belong to multiple clusters. For supertyping, we want to reduce this down to having NO alleles that are like this, since we're trying to break them down into the least divisible unit.
 
 # Alleles with less than 100% probability of membership:
 temp90 <- which(apply(dapc_7$posterior,1, function(e) all(e<0.90))) # all those that have less than 90% probability of membership in a single cluster.
-temp90 # 0
+length(temp90) # 4
 
 temp95 <- which(apply(dapc_7$posterior,1, function(e) all(e<0.95))) # all those that have less than x% probability of membership in a single cluster.
-temp95 # 0
+length(temp95) # 5
 
 temp99 <- which(apply(dapc_7$posterior,1, function(e) all(e<0.99))) # all those that have less than x% probability of membership in a single cluster.
-temp99 # 0
+length(temp99) # 9
 
 # Visualize:
 compox <- compoplot(dapc_7, col = pal7)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/compo7_combined_03July24.svg")
+dev.copy(svg, file="MHCII_combined_compo7_22Sept25.svg")
 dev.off()
 
 ##################################################
@@ -511,18 +544,24 @@ xval_8 <- xvalDapc(MHCII_matrix,
 # xval gives several metrics on which number of PCs is best but these metrics aren't always congruent with one another. We used the number of PCs associated with the lowest RMSE as the "optimum" number of PCAs in the DAPC analysis.
 
 
-xval_8[2:6] # 50
+xval_8[2:6] # 10
 
-# 8_a: evaluate 50 as center of optimal distribution:
+# 8_a: evaluate 10 as center of optimal distribution:
 
 set.seed(1)
-xval_8_a <- xvalDapc(MHCII_matrix, grp = grp_8$grp, n.pca = 1:100, n.rep = 1000, parallel = "multicore", ncpus = 4L) # evaluate 1 to 100 PCAs, since 50 is the center.
+xval_8_a <- xvalDapc(MHCII_matrix,
+                     grp = grp_8$grp,
+                     n.pca = 5:15,
+                     n.rep = 1000, # number of replicates at each level of PC retention
+                     ncpus = 1)
 
-xval_8_a[2:6] # x is optimal number of PCAs at 8 clusters for correctly predicting subsamples with the lowest error, some fluctuation
+xval_8_a[2:6] # 8 is optimal number of PCAs at 8 clusters for correctly predicting subsamples with the lowest error, some fluctuation
 
-# Result: 8 clusters, 43 PCs
+# Result: 8 clusters, 8 PCs
 
-dapc_8 <- dapc(MHCII_matrix, grp_8$grp, n.pca = 43) # retain 43 PCs automatically; retain 7 DFs
+dapc_8 <- dapc(MHCII_matrix,
+               grp_8$grp,
+               n.pca = 8) # retain 8 PCs automatically; retain 7 DFs
 
 # Visualize DAPC results
 
@@ -541,24 +580,24 @@ k8_scatter <- scatter(dapc_8, # data
                       posi.leg = "topright",
                       posi.pca = "bottomleft",
                       col = pal8)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/k8_scatter_combined_03July24.svg")
+dev.copy(svg, file="MHCII_combined_k8_scatter_22Sept25.svg")
 dev.off()
 
 # Compoplots shows us the alleles that have less than a certain probability of membership in a single cluster; i.e., those alleles that might belong to multiple clusters. For supertyping, we want to reduce this down to having NO alleles that are like this, since we're trying to break them down into the least divisible unit.
 
 # Alleles with less than 100% probability of membership:
 temp90 <- which(apply(dapc_8$posterior,1, function(e) all(e<0.90))) # all those that have less than 90% probability of membership in a single cluster.
-temp90 # 9
+length(temp90) # 6
 
 temp95 <- which(apply(dapc_8$posterior,1, function(e) all(e<0.95))) # all those that have less than x% probability of membership in a single cluster.
-temp95 # 12
+length(temp95) # 15
 
 temp99 <- which(apply(dapc_8$posterior,1, function(e) all(e<0.99))) # all those that have less than x% probability of membership in a single cluster.
-length(temp99) # 26
+length(temp99) # 24
 
 # Visualize:
 compo8 <- compoplot(dapc_8, col = pal8)
-dev.copy(svg, file="/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCII_monomorphic_polymorphic_combined/figures/supertyping/combined/compo8_combined_03July24.svg")
+dev.copy(svg, file="compo8_combined_22Sept25.svg")
 dev.off()
 
 
@@ -567,11 +606,11 @@ dev.off()
 supertypes3_MHCII_poly <- as.data.frame(dapc_3[["grp"]]) # gives supertype membership of each allele.
 supertypes3_MHCII_poly
 
-allele_names <- read.csv("MHCII_combined_supertyping_input.csv")
+allele_names <- read.csv("MHCII_chr14_chr1_supertyping_input.csv")
 allele_names <- allele_names[1]
 
 MHCII_combined_alleles_by_supertype3 <- cbind(supertypes3_MHCII_poly, allele_names)
 MHCII_combined_alleles_by_supertype3
 
-write.csv(MHCII_combined_alleles_by_supertype3, "MHCII_combined_alleles_by_supertype3_03Jul24.csv")
+write.csv(MHCII_combined_alleles_by_supertype3, "k3_MHCII_combined_alleles_by_supertype_23Sept25.csv")
 

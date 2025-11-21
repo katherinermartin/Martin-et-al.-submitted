@@ -6,10 +6,9 @@ library(pegas) # for nucleotide diversity calculation
 library(ggplot2)
 library(ggpubr)
 
-setwd("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCI/allelic_diversity")
 
 # read in sequence list
-all_seqs <- read.dna("CcCmDcLk_May2023_clustalomega_alm_nooutgroups.fasta", format = "fasta") # must be an alignment
+all_seqs <- read.dna("MHCI_CcCmDcLk_May2023_clustalomega_alm_nooutgroups.fasta", format = "fasta") # must be an alignment
 dim(all_seqs) # 162
 
 # convert sequence list from DNAbin object to matrix
@@ -350,16 +349,16 @@ alleles
 
 
 indiv_per_spp
-ggsave("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCI/figures/allelic_summary_stats/indiv_per_spp.svg")
+ggsave("indiv_per_spp.svg")
 
 alleles_per_spp
-ggsave("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCI/figures/allelic_summary_stats/alleles_per_spp.svg")
+ggsave("allelic_summary_stats/alleles_per_spp.svg")
 
 nucleotide_div
-ggsave("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCI/figures/allelic_summary_stats/nucleotide_div.svg")
+ggsave("allelic_summary_stats/nucleotide_div.svg")
 
 alleles
-ggsave("/Users/KatieMartin/Documents/UCF/Research/MHC_species_evo/analysis/MHCI/figures/allelic_summary_stats/alleles.svg")
+ggsave("allelic_summary_stats/alleles.svg")
 
 # now facet plots
 allele_stats_figure <- ggpubr::ggarrange(indiv_per_spp,
